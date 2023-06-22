@@ -15,7 +15,7 @@ export default function Home() {
       <SkillSec />
       <BlogSec />
       {/* Demo ⬇️⬇️⬇️ */}
-      <div className="min-h-screen min-w-screen grid place-items-center white-dot-bg">
+      {/* <div className="min-h-screen min-w-screen grid place-items-center white-dot-bg">
         <div className="relative text-5xl md:text-6xl  text-center font-bold">
           <h2 className="  leading-tight text-main-grd-2 z-10">
             Gradient text shadow in <br /> CSS / tailwindcss
@@ -24,7 +24,7 @@ export default function Home() {
             Gradient text shadow in <br /> CSS / tailwindcss
           </h2>
         </div>
-      </div>
+      </div> */}
     </main>
   );
 }

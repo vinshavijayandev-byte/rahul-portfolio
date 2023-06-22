@@ -1,6 +1,6 @@
 import * as React from "react";
 import Link from "next/link";
-import BlogCardMd from "./blogCardMd";
+import BlogCardMd from "@/app/components/common/blogCardMd";
 const BlogSec: React.FunctionComponent = () => {
   return (
     <section className="light-dot-bg">
