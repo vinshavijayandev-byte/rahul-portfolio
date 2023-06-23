@@ -121,6 +121,11 @@ const BackEndSkills = [
     level: 2,
   },
   {
+    title: "Docker",
+    logo: "/assets/logo/docker.svg",
+    level: 2,
+  },
+  {
     title: "Firebase",
     logo: "/assets/logo/firebase.svg",
     level: 2,

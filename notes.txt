@@ -1,0 +1,11 @@
+I am Vysakh Arakkal , working as a software engineer from Dubai .
+My education background is Btech Electronics and communication from KTU, But its not completed sucessfully.
+I have 3 years of experience in software development field excatly in NodeJS and ReactJS.
+I am a self taught developer and I am very passionate about programming and learning new technologies. 
+I have interst in hoby electronics and I am a maker too. I have done some personal projects in emmeded systems and IOT.
+
+
+notable achievements
+ Gitex 2023
+
+Participated as an exhibitor for Epson Middle East at GITEX 2022. Took part in detailing and explaining about Epson's Document Scanners and Software solutions. Over the four-day event, interacted with more than 1000 potential clients from regions spanning the Middle East, Africa, and Europe.

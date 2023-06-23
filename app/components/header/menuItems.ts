@@ -12,10 +12,10 @@ const MenuItems: MenuI[] = [
     name: "About",
     link: "/about",
   },
-  {
-    name: "My Journey",
-    link: "/journey",
-  },
+  // {
+  //   name: "My Journey",
+  //   link: "/journey",
+  // },
   {
     name: "Blog",
     link: "/blog",

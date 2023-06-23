@@ -28,13 +28,13 @@ const JourneySec: React.FunctionComponent = () => {
             />
           </div>
         </div>
-        <div className="w-full grid place-items-center my-12 ">
+        {/* <div className="w-full grid place-items-center my-12 ">
           <Link href="/journey">
             <div className="w-fit px-10 py-4 font-bold link-btn text-black transition-all text-center rounded-2xl">
               View My Complete Journey
             </div>
           </Link>
-        </div>
+        </div> */}
       </div>
     </section>
   );
