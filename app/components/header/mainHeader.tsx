@@ -27,7 +27,7 @@ const MainHeader: React.FunctionComponent<IMainHeaderProps> = (props) => {
               <Link href={item.link} key={key} className="px-4">
                 <h1
                   className={
-                    currentPage === item.name
+                    currentPage === `/${item.name.toLowerCase()}`
                       ? "text-[#32fcd5]"
                       : "hover:text-[#f753fc]"
                   }

@@ -1,6 +1,7 @@
 import * as React from "react";
 import Marquee from "react-fast-marquee";
 import PageHeader from "@/app/components/common/pageHeader";
+import Iconify from "@/app/components/common/iconfy";
 
 const imgRow1Arr = [
   {
@@ -113,7 +114,7 @@ const imgRow2Arr = [
 ];
 const About: React.FunctionComponent = () => {
   return (
-    <>
+    <div className="max-w-screen ">
       <PageHeader
         title="Personal Profile"
         subTitle="A Closer Look at My Professional Pathway"
@@ -121,14 +122,14 @@ const About: React.FunctionComponent = () => {
       <section className="white-dot-bg">
         <div className="max-w-screen-xl  xl:mx-auto mx-5 grid place-items-center py-12 ">
           <div className="flex flex-col md:flex-row gap-5">
-            <div className="w-full md:w-1/2 hidden md:block ">
+            <div className="w-full md:w-1/2  grid place-items-center  ">
               <img
                 src="/assets/vysakh1.webp"
                 alt="my journy "
-                className="w-full object-cover rounded-2xl shadow-xl shadow-sky-700/30 "
+                className="w-full object-cover rounded-2xl mt-5  shadow-sky-700/30 "
               />
             </div>
-            <div className="w-full md:w-1/2 p-2 grid place-content-center ">
+            <div className="w-full md:w-1/2 p-2 ">
               <p className="text-lg leading-normal my-5 font-semibold ">
                 My name is Vysakh Arakkal, a dedicated software engineer based
                 in Dubai. I embarked on my educational journey at KTU, where I
@@ -147,12 +148,20 @@ const About: React.FunctionComponent = () => {
                 and hands-on experience allows me to continuously innovate and
                 grow as a developer.
               </p>
+              <div>
+                <a href="/cv23.pdf" target="_blank" className=" ">
+                  <div className="flex justify-center items-center   px-10 py-4 font-bold link-btn text-black transition-all rounded-2xl w-fit hover:text-white gap-4">
+                    <h2 className="mt-2">Download My CV</h2>
+                    <Iconify icon="ph:download-bold" className="w-7 h-7" />
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
         </div>
         <div className=" py-12 ">
           <div className="relative text-center mb-5 ">
-            <h2 className="font-extrabold text-5xl leading-tight  text-black">
+            <h2 className="font-extrabold text-3xl md:text-5xl leading-tight  text-black">
               Sneak Peek into <br />
               My Creations
             </h2>
@@ -253,7 +262,7 @@ const About: React.FunctionComponent = () => {
         </div> */}
         </div>
       </section>
-    </>
+    </div>
   );
 };
 

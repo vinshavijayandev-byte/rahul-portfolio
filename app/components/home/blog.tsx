@@ -20,7 +20,7 @@ const BlogSec: React.FunctionComponent = () => {
               as well.
             </p>
             <div className="w-full grid   place-items-center md:block">
-              <Link href="/blogs">
+              <Link href="/blog">
                 <div className="w-fit px-10 py-4 font-bold link-btn text-black transition-all text-center rounded-2xl">
                   View All Blogs
                 </div>
@@ -33,15 +33,7 @@ const BlogSec: React.FunctionComponent = () => {
                 title="How to make gradient text shadow using CSS / tailwindcss"
                 desc="This article will guide you through the process of creating gradient text shadows using CSS and Tailwind CSS. "
                 img="/assets/blog/gradient-text.jpg"
-                link="/blogs/how-to-make-gradient-text-shadow-in-css-tailwindcss"
-                date="June 1, 2023"
-                author="Vysakh"
-              />
-              <BlogCardMd
-                title="How to make gradient text shadow in CSS / tailwindcss"
-                desc="This article will guide you through the process of creating gradient text shadows using CSS and Tailwind CSS. "
-                img="https://res.cloudinary.com/practicaldev/image/fetch/s--1FyVzU4T--/c_imagga_scale,f_auto,fl_progressive,h_1080,q_auto,w_1080/https://cl.ly/d08de9775bb9/download/Image%25202019-02-13%2520at%252010.51.57%2520AM.png"
-                link="/blogs/how-to-make-gradient-text-shadow-in-css-tailwindcss"
+                link="/blog/gradient-text-shadow"
                 date="June 1, 2023"
                 author="Vysakh"
               />

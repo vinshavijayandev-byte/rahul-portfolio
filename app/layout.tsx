@@ -20,9 +20,26 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={poppins.className}>
-        <Header currentMenu="Home" />
-        {children}
+      <head>
+        <link rel="icon" href="/favicon.png" sizes="any" />
+        <meta property="og:image" content="/meta.png" />
+        <meta property="twitter:image" content="/meta.png" />
+      </head>
+      <body className={`${poppins.className}`}>
+        <div
+          style={{
+            zIndex: "100 !important",
+          }}
+        >
+          <Header />
+        </div>
+        <div
+          style={{
+            zIndex: "0 !important",
+          }}
+        >
+          {children}
+        </div>
         <Footer />
       </body>
     </html>
