@@ -1,4 +1,5 @@
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/react";
 import { Poppins } from "next/font/google";
 import Header from "@/app/components/header";
 import Footer from "@/app/components/footer";
@@ -41,6 +42,7 @@ export default function RootLayout({
           {children}
         </div>
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
