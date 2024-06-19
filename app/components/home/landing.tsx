@@ -1,12 +1,20 @@
 import * as React from "react";
 import Link from "next/link";
+
 const LandingSec: React.FunctionComponent = () => {
   const startedYear: number = 2020;
   const currentYear: number = new Date().getFullYear();
   const experience: number = currentYear - startedYear;
 
   return (
-    <section className="bg-black text-white  landing-bg ">
+    <section
+      className="bg-black text-white  landing-bg "
+      style={{
+        backgroundImage: "url(/assets/landing.jpg)",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
       <div className="max-w-screen-xl  xl:mx-auto mx-5 grid place-items-center min-h-[90vh] ">
         <div className="w-full md:w-1/2 text-center flex flex-col items-center  ">
           <div className="relative text-5xl md:text-6xl ">

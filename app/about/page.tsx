@@ -21,6 +21,14 @@ const imgRow1Arr = [
     title: "",
   },
   {
+    src: "/assets/about/28.jpg",
+    title: "",
+  },
+  {
+    src: "/assets/about/29.png",
+    title: "",
+  },
+  {
     src: "/assets/about/5.jpg",
     title: "",
   },
@@ -61,6 +69,19 @@ const imgRow2Arr = [
   },
   {
     src: "/assets/about/12.jpg",
+    title: "",
+  },
+  {
+    src: "/assets/about/30.png",
+    title: "",
+  },
+  {
+    src: "/assets/about/27.jpg",
+    title: "",
+  },
+
+  {
+    src: "/assets/about/31.png",
     title: "",
   },
   {
@@ -132,8 +153,8 @@ const About: React.FunctionComponent = () => {
             <div className="w-full md:w-1/2 p-2 ">
               <p className="text-lg leading-normal my-5 font-semibold ">
                 My name is Vysakh Arakkal, a dedicated software engineer based
-                in Dubai. I embarked on my educational journey at KTU, where I
-                pursued a Btech degree in Electronics and Communication.
+                in Kerala, India. I embarked on my educational journey at KTU,
+                where I pursued a Btech degree in Electronics and Communication.
                 Although I didn't successfully complete my degree, I've managed
                 to build a robust career in software development, specializing
                 in NodeJS and ReactJS, with three years of hands-on experience.
@@ -149,7 +170,7 @@ const About: React.FunctionComponent = () => {
                 grow as a developer.
               </p>
               <div>
-                <a href="/cv23.pdf" target="_blank" className=" ">
+                <a href="/vysakh_cv_24.pdf" target="_blank" className=" ">
                   <div className="flex justify-center items-center   px-10 py-4 font-bold link-btn text-black transition-all rounded-2xl w-fit hover:text-white gap-4">
                     <h2 className="mt-2">Download My CV</h2>
                     <Iconify icon="ph:download-bold" className="w-7 h-7" />
