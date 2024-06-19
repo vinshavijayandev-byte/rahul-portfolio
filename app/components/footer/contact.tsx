@@ -20,6 +20,7 @@ export default function Contact() {
               <a
                 href="https://www.linkedin.com/in/vysakh-av"
                 className=" underline text-sky-600 "
+                aria-label="LinkedIn Profile "
               >
                 LinkedIn
               </a>{" "}
@@ -27,6 +28,7 @@ export default function Contact() {
               <a
                 href="mailto:vysakh.4v@gmail.com"
                 className="underline  text-purple-500 "
+                aria-label="Email Address"
               >
                 vysakh.4v@gmail.com
               </a>
@@ -37,6 +39,7 @@ export default function Contact() {
               <a
                 href="mailto:vysakh.4v@gmail.com"
                 className="m-2 text-white p-3 grid place-content-center w-12 h-12 rounded-xl bg-gradient-to-br from-amber-400 to-orange-500 hover:from-amber-200 hover:to-amber-200 hover:text-orange-500 transition-all ease-linear shadow-xl shadow-orange-400/50"
+                aria-label="Email Address"
               >
                 <Iconify icon="mdi:email" className="w-8 h-8 inline-block" />
               </a>
@@ -44,12 +47,14 @@ export default function Contact() {
               <a
                 href="https://www.linkedin.com/in/vysakh-av"
                 className="m-2 text-white p-3 grid place-content-center w-12 h-12 rounded-xl bg-gradient-to-br from-sky-400 to-teal-500 hover:from-sky-200 hover:to-teal-200 hover:text-sky-700 transition-all ease-linear shadow-xl shadow-sky-400/50"
+                aria-label="LinkedIn Profile "
               >
                 <Iconify icon="mdi:linkedin" className="w-8 h-8 inline-block" />
               </a>
               <a
                 href="https://github.com/vysakh5"
                 className="m-2 text-white p-3 grid place-content-center w-12 h-12 rounded-xl bg-gradient-to-br from-slate-600 to-sky-900 hover:from-gray-200 hover:to-slate-200 hover:text-slate-700 transition-all ease-linear shadow-xl shadow-slate-400/50"
+                aria-label="GitHub Profile"
               >
                 <Iconify icon="mdi:github" className="w-8 h-8 inline-block" />
               </a>

@@ -104,6 +104,8 @@ const MobHeader: React.FunctionComponent<IMobHeaderProps> = (props) => {
           <button
             className="bg-slate-800 p-2 rounded-full"
             onClick={handleMenuOpen}
+            role="button"
+            aria-label="menu"
           >
             {isMenuOpen ? (
               <Icon
