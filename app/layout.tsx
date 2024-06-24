@@ -10,8 +10,7 @@ const poppins = Poppins({
 
 export const metadata = {
   title: "Home | <yzk/>",
-  description: `My name is Vysakh, welcome to my website. I'm a full-stack JS developer with more than 3 year's of professional experience.
-I love to build things that solve real-world problems.`,
+  description: `Hey, Vysakh here! Welcome to my website. I'm a full-stack JavaScript developer with over four years of professional experience. I have a passion for creating solutions that address real-world challenges.`,
 };
 
 export default function RootLayout({

@@ -106,7 +106,7 @@ const imgRow2Arr = [
 ];
 const AboutSec: React.FunctionComponent = () => {
   return (
-    <section className="light-dot-bg relative ">
+    <section className="light-dot-bg relative overflow-x-hidden">
       <div className="max-w-screen-xl  xl:mx-auto mx-5 grid place-items-center min-h-[90vh] ">
         <div className="w-full md:w-2/5 text-center ">
           <h4 className="bg-gray-800 w-fit px-4 py-1 rounded-2xl mx-auto  my-4 ">
@@ -131,7 +131,7 @@ const AboutSec: React.FunctionComponent = () => {
           </p>
         </div>
       </div>
-      <div className=" absolute bottom-0 opacity-50  ">
+      <div className=" absolute bottom-0 opacity-50   ">
         <Marquee speed={80} className=" overflow-hidden mb-2">
           {imgRow2Arr.map((item, key) => (
             <div key={key} className=" relative m-2">
