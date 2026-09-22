@@ -1,3 +1,4 @@
+
 interface MenuI {
   name: string;
   link: string;
@@ -5,21 +6,22 @@ interface MenuI {
 
 const MenuItems: MenuI[] = [
   {
-    name: "Home",
-    link: "/",
+    name: "Work",
+    link: "/#work",
   },
   {
     name: "About",
-    link: "/about",
+    link: "/#about",
   },
-  // {
-  //   name: "My Journey",
-  //   link: "/journey",
-  // },
   {
-    name: "Blog",
-    link: "/blog",
+    name: "FAQ",
+    link: "/#faq",
+  },
+  {
+    name: "Resume",
+    link: "https://drive.google.com/file/d/1mLe_eKFSuhpVfxv1XUCZ9ugb7QBNoOxj/view",
   },
 ];
 
 export default MenuItems;
+

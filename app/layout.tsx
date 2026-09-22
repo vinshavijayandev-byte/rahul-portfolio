@@ -1,16 +1,18 @@
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
-import { Poppins } from "next/font/google";
+import { Barlow_Condensed } from "next/font/google";
 import Header from "@/app/components/header";
 import Footer from "@/app/components/footer";
-const poppins = Poppins({
+
+const barlowCondensed = Barlow_Condensed({
   subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  weight: ["400", "500", "600", "700", "800", "900"],
+  variable: "--font-display",
 });
 
 export const metadata = {
-  title: "Home | <yzk/>",
-  description: `Hey, Vysakh here! Welcome to my website. I'm a full-stack JavaScript developer with over four years of professional experience. I have a passion for creating solutions that address real-world challenges.`,
+  title: "Home | Rahul",
+  description: "Hey, Rahul here! Welcome to my website.",
 };
 
 export default function RootLayout({
@@ -19,28 +21,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={barlowCondensed.variable}>
       <head>
-        <link rel="icon" href="/favicon.png" sizes="any" />
-        <meta property="og:image" content="/meta.png" />
-        <meta property="twitter:image" content="/meta.png" />
+        <link rel="icon" href="/RahulDp.png" sizes="any" />
+        <meta property="og:image" content="/RahulDp.png" />
+        <meta property="twitter:image" content="/RahulDp.png" />
       </head>
-      <body className={`${poppins.className}`}>
-        <div
-          style={{
-            zIndex: "100 !important",
-          }}
-        >
-          <Header />
-        </div>
-        <div
-          style={{
-            zIndex: "0 !important",
-          }}
-        >
-          {children}
-        </div>
+
+      <body>
+        <Header />
+
+        <main>{children}</main>
+
         <Footer />
+
         <Analytics />
       </body>
     </html>

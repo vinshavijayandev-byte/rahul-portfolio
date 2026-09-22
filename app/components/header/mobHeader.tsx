@@ -1,10 +1,11 @@
-"use cllient";
+"use client";
+
 import * as React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 import Icon from "@/app/components/common/iconfy";
-import { useAnimate, stagger, motion } from "framer-motion";
+import { useAnimate, stagger } from "framer-motion";
 import { useState, useEffect } from "react";
 import MenuItems from "./menuItems";
 
@@ -32,14 +33,22 @@ function useMenuAnimation(isOpen: boolean) {
     animate(
       ".menu-item",
       isOpen
-        ? { opacity: 1, scale: 1, filter: "blur(0px)" }
-        : { opacity: 0, scale: 0.3, filter: "blur(20px)" },
+        ? {
+            opacity: 1,
+            scale: 1,
+            filter: "blur(0px)",
+          }
+        : {
+            opacity: 0,
+            scale: 0.3,
+            filter: "blur(20px)",
+          },
       {
         duration: 0.2,
         delay: isOpen ? staggerMenuItems : 0,
       }
     );
-  }, [isOpen]);
+  }, [isOpen, animate]);
 
   return scope;
 }
@@ -52,6 +61,7 @@ const MobHeader: React.FunctionComponent<IMobHeaderProps> = (props) => {
   const pathname = usePathname();
 
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
+
   const scope = useMenuAnimation(isMenuOpen);
 
   const handleMenuOpen = () => {
@@ -61,24 +71,41 @@ const MobHeader: React.FunctionComponent<IMobHeaderProps> = (props) => {
   useEffect(() => {
     setIsMenuOpen(false);
   }, [pathname]);
+
   const currentPage: string = props.currentMenu;
 
   const Menu = () => {
     return (
       <div
-        className="bg-white py-5 px-8 rounded-[12px] shadow-xl w-[80vw] mt-3  "
+        className="
+          bg-white
+          py-5
+          px-8
+          rounded-[12px]
+          shadow-xl
+          w-[80vw]
+          mt-3
+        "
         style={{
-          zIndex: "999999 !important",
+          zIndex: "999999",
         }}
       >
-        <div className="flex flex-col gap-5  font-semibold ">
+        <div className="flex flex-col gap-5 font-semibold">
           {MenuItems.map((item, key) => (
             <div key={key} className="w-full">
               <Link
                 href={item.link}
-                className=" border-b menu-item flex justify-between items-center p-2 w-full"
+                className="
+                  border-b
+                  menu-item
+                  flex
+                  justify-between
+                  items-center
+                  p-2
+                  w-full
+                "
               >
-                <div className="">{item.name}</div>
+                <div>{item.name}</div>
               </Link>
             </div>
           ))}
@@ -88,21 +115,74 @@ const MobHeader: React.FunctionComponent<IMobHeaderProps> = (props) => {
   };
 
   return (
-    <section className="max-w-screen-xl  xl:mx-auto mx-5 relative" ref={scope}>
-      <div className=" absolute top-5 left-0 flex justify-between w-full ">
+    <section
+      className="
+        max-w-screen-xl
+        xl:mx-auto
+        mx-5
+        relative
+      "
+      ref={scope}
+    >
+      <div
+        className="
+          absolute
+          top-5
+          left-0
+          flex
+          items-center
+          justify-between
+          w-full
+        "
+      >
+
+        {/* LEFT SIDE - IMAGE + RAHUL */}
         <Link href="/">
-          <div className="relative  text-3xl ">
-            <h2 className="  leading-tight text-main-grd z-10 font-extrabold">
-              yzk/.
-            </h2>
-            <h2 className=" leading-tight text-main-grd absolute top-0 text-bg-blur font-extrabold ">
-              yzk/.
-            </h2>
+          <div className="relative flex items-center gap-2">
+
+            {/* Rahul Image */}
+            <img
+              src="/assets/Homepage/RahulDP.png"
+              alt="Rahul"
+              className="
+                w-10
+                h-10
+                rounded-full
+                object-cover
+                shrink-0
+              "
+            />
+
+            {/* Rahul Text */}
+            <div className="relative text-xl">
+              <h2 className="text-black z-10">
+                Rahul
+              </h2>
+
+              <h2
+                className="
+                  text-black
+                  absolute
+                  top-0
+                  left-0
+                  text-bg-blur
+                "
+              >
+                Rahul
+              </h2>
+            </div>
+
           </div>
         </Link>
+
+        {/* MENU BUTTON */}
         <div className="relative">
           <button
-            className="bg-slate-800 p-2 rounded-full"
+            className="
+              bg-slate-800
+              p-2
+              rounded-full
+            "
             onClick={handleMenuOpen}
             role="button"
             aria-label="menu"
@@ -110,26 +190,41 @@ const MobHeader: React.FunctionComponent<IMobHeaderProps> = (props) => {
             {isMenuOpen ? (
               <Icon
                 icon="ri-close-line"
-                className="text-[#32fcd5] text-3xl text-main-grd"
+                className="
+                  text-[#fc310c]
+                  text-3xl
+                  text-main-grd
+                "
               />
             ) : (
               <Icon
                 icon="eva:menu-2-fill"
-                className="text-[#32fcd5] text-3xl text-main-grd"
+                className="
+                  text-[#fc310c]
+                  text-3xl
+                  text-main-grd
+                "
               />
             )}
           </button>
         </div>
+
+        {/* MOBILE MENU */}
         <div
-          className="menu-list  absolute top-10 left-4 "
+          className="
+            menu-list
+            absolute
+            top-10
+            left-4
+          "
           style={{
             pointerEvents: isMenuOpen ? "auto" : "none",
             clipPath: "inset(10% 50% 90% 50% round 10px)",
           }}
         >
-          {" "}
           <Menu />
         </div>
+
       </div>
     </section>
   );

@@ -12,24 +12,34 @@ const MainHeader: React.FunctionComponent<IMainHeaderProps> = (props) => {
     <section className="max-w-screen-xl  xl:mx-auto mx-5 relative">
       <div className=" absolute top-5 left-0 flex justify-between w-full ">
         <Link href="/">
-          <div className="relative  text-5xl ">
-            <h2 className="  leading-tight text-main-grd z-10 font-extrabold">
-              yzk/.
-            </h2>
-            <h2 className=" leading-tight text-main-grd absolute top-0 text-bg-blur font-extrabold ">
-              yzk/.
-            </h2>
+          <div className="relative flex items-center gap-2 text-xl">
+           
+            <img
+              src="/assets/HomePage/RahulDP.png"
+              alt="Rahul"
+              className="w-20 h-20 rounded-full object-cover"
+            />
+
+            <div className="relative">
+              <h2 className="text-black hover:text-[#fc310c] z-10 text-2xl">
+                Rahul
+              </h2>
+
+              <h2 className="text-black hover:text-[#fc310c] absolute text-2xl top-0">
+                Rahul
+              </h2>
+            </div>
           </div>
         </Link>
         <div className="relative">
-          <nav className=" relative bg-slate-800 flex justify-center place-items-center p-4 rounded-2xl z-10 font-bold text-white main-nav-bar">
+          <nav className=" relative flex justify-center place-items-center p-4 text-2xl rounded-2xl z-10  text-black main-nav-bar">
             {MenuItems.map((item, key) => (
               <Link href={item.link} key={key} className="px-4">
                 <h1
                   className={
                     currentPage === `/${item.name.toLowerCase()}`
-                      ? "text-[#32fcd5]"
-                      : "hover:text-[#f753fc]"
+                      ? "text-black"
+                      : "hover:text-[#fc310c]"
                   }
                 >
                   {item.name}
@@ -37,7 +47,7 @@ const MainHeader: React.FunctionComponent<IMainHeaderProps> = (props) => {
               </Link>
             ))}
           </nav>
-          <div className="main-nav-bar-bg "></div>
+       
         </div>
       </div>
     </section>
