@@ -82,54 +82,55 @@ const ImageSection: React.FunctionComponent = () => {
         }}
       />
 
-      {/* =========================
-          SIGNATURE VIDEO
-      ========================== */}
-      <motion.video
-        src="/Signature.webm"
-        autoPlay
-        muted
-        playsInline
-        preload="auto"
-        initial={{
-          opacity: 0,
-          scale: 0.96,
-        }}
-        whileInView={{
-          opacity: 1,
-          scale: 1,
-        }}
-        transition={{
-          duration: 1,
-          delay: 0.3,
-          ease: [0.22, 1, 0.36, 1],
-        }}
-        viewport={{
-          once: true,
-          amount: 0.2,
-        }}
-        className="
-          absolute
-          z-20
-          pointer-events-none
-          object-contain
+ {/* =========================
+    SIGNATURE VIDEO
+========================= */}
+<motion.video
+  src="/Signature.webm"
+  autoPlay
+  muted
+  playsInline
+  preload="auto"
+  initial={{
+    opacity: 0,
+    scale: 0.96,
+  }}
+  whileInView={{
+    opacity: 1,
+    scale: 1,
+  }}
+  transition={{
+    duration: 1,
+    delay: 0.3,
+    ease: [0.22, 1, 0.36, 1],
+  }}
+  viewport={{
+    once: true,
+    amount: 0.2,
+  }}
+  className="
+    absolute
+    z-20
+    pointer-events-none
+    object-contain
+    mix-blend-screen
 
-          /* Desktop */
-          w-[33%]
-          right-[7%]
-          top-[49%]
+    /* Desktop */
+    w-[33%]
+    right-[7%]
+    top-[49%]
 
-          /* Tablet */
-          md:w-[36%]
-          md:right-[6%]
-          md:top-[48%]
+    /* Tablet */
+    md:w-[36%]
+    md:right-[6%]
+    md:top-[48%]
 
-          /* Mobile */
-          max-md:w-[48%]
-          max-md:right-[5%]
-          max-md:top-[56%]
-        "
-      />
+    /* Mobile */
+    max-md:w-[48%]
+    max-md:right-[5%]
+    max-md:top-[56%]
+  "
+/>
 
       {/* =========================
           BOTTOM TEXT
