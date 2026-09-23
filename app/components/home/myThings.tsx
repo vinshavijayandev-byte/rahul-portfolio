@@ -91,13 +91,13 @@ const MyThingsSec: React.FunctionComponent = () => {
             LOOK, I MADE THINGS
           </h2>
 
-          <p className="text-xl md:text-3xl leading-normal md:mt-5 text-black">
+          <p className=" md:text-3xl leading-normal md:mt-5 text-black">
             Just me thinking, designing, and winging it
           </p>
         </motion.div>
 
        {/* Cards */}
-<div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 md:gap-y-12 gap-y-4 md:mt-12 mt-6">
+<div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 md:gap-y-12 md:mt-12">
   {things.map((thing, index) => (
     <motion.div
       key={thing.title}
@@ -118,7 +118,7 @@ const MyThingsSec: React.FunctionComponent = () => {
       >
 
         {/* Image */}
-        <div className="w-full overflow-hidden">
+        <div className="w-full overflow-hidden -mt-4 md:mt-0">
           <img
             src={thing.image}
             alt={thing.title}
@@ -145,7 +145,7 @@ const MyThingsSec: React.FunctionComponent = () => {
             font-semibold
             text-black
             md:mt-5
-            mt-2
+            
             transition-colors
             duration-300
             group-hover:text-[#fc310c]

@@ -172,7 +172,7 @@ const AboutSec: React.FunctionComponent = () => {
         </motion.div>
 
        {/* Experience */}
-<div className="w-full mt-6 md:mt-8">
+<div className="w-full mt-2 md:mt-8">
   {experiences.map((experience, index) => (
     <motion.div
       key={index}
@@ -200,7 +200,7 @@ const AboutSec: React.FunctionComponent = () => {
     >
       {/* Company + Location */}
       <div className="w-full md:flex-1 min-w-0">
-        <h4 className="text-lg md:text-2xl font-medium text-black leading-snug">
+        <h4 className="text-lg md:text-2xl font-semibold text-black leading-snug">
           {experience.company}
         </h4>
 
@@ -229,7 +229,7 @@ const AboutSec: React.FunctionComponent = () => {
 
         {/* Divider */}
         <motion.div
-          className="w-full h-px bg-black/20 mt-2"
+          className="w-full h-px bg-black/20"
           initial={{
             scaleX: 0,
             opacity: 0,
@@ -253,7 +253,7 @@ const AboutSec: React.FunctionComponent = () => {
 
         {/* My Daily Drivers */}
         <motion.div
-          className="mt-8 mb-6"
+          className="mt-6 mb-6"
           variants={reveal}
           initial="hidden"
           whileInView="visible"
