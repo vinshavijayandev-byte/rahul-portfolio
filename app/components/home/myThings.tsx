@@ -6,31 +6,31 @@ import { motion } from "framer-motion";
 
 const things = [
   {
-    image: "/assets/Homepage/Echopath.png",
+    image: "/assets/Homepage/Echopath.webp",
     title: "Echo Path",
     text: "UI/UX",
     link: "/projects/echo-path",
   },
   {
-    image: "/assets/Homepage/PorterFlight.png",
+    image: "/assets/Homepage/PorterFlight.webp",
     title: "Porter Flight Status",
     text: "UI/UX",
     link: "/projects/porter-flight-status",
   },
   {
-    image: "/assets/Homepage/Edumate.png",
+    image: "/assets/Homepage/Edumate.webp",
     title: "Edumate",
     text: "UI/UX, Dashboard Design",
     link: "/projects/edumate",
   },
   {
-    image: "/assets/Homepage/Madeforthefeed.png",
+    image: "/assets/Homepage/Madeforthefeed.webp",
     title: "Made for the Feed",
     text: "Social Media, AI Visuals, Campaign Content",
     link: "/projects/made-for-the-feed",
   },
   {
-    image: "/assets/Homepage/Theyyam.png",
+    image: "/assets/Homepage/Theyyam.webp",
     title: "Theyyam The Flame Within",
     text: "Game Concept Design",
     link: "/projects/theyyam-the-flame-within",

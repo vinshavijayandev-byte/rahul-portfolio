@@ -270,7 +270,7 @@ export default function PorterFlightStatusPage() {
     }}
   >
     <img
-      src="/assets/Porterflight/Porter01.png"
+      src="/assets/Porterflight/Porter01.webp"
       alt="Edumate project"
       className="w-full h-auto object-cover"
     />
@@ -369,7 +369,7 @@ also overlooking critical operational states such as diverted flights.
       }}
     >
       <img
-       src="/assets/Porterflight/Porter02.png"
+       src="/assets/Porterflight/Porter02.webp"
         alt="Edumate interface"
         className="w-full h-auto object-cover"
       />
@@ -424,7 +424,7 @@ Old Result page
       }}
     >
       <img
-       src="/assets/Porterflight/Porter03.png"
+       src="/assets/Porterflight/Porter03.webp"
         alt="Edumate interface"
         className="w-full h-auto object-cover"
       />
@@ -493,7 +493,7 @@ Usability testing revealed that users struggled to find this information quickly
       }}
     >
       <motion.img
-         src="/assets/Porterflight/Porter04.png"
+         src="/assets/Porterflight/Porter04.webp"
         alt="Edumate interface"
         className="w-full h-auto object-cover"
         initial={{
@@ -574,7 +574,7 @@ Usability testing revealed that users struggled to find this information quickly
       }}
     >
       <motion.img
-         src="/assets/Porterflight/Porter05.png"
+         src="/assets/Porterflight/Porter05.webp"
         alt="Edumate interface"
         className="w-full h-auto object-cover"
         initial={{
@@ -678,7 +678,7 @@ During usability testing, users were able to locate key actions on their first a
       }}
     >
       <motion.img
-         src="/assets/Porterflight/Porter06.png"
+         src="/assets/Porterflight/Porter06.webp"
         alt="Edumate interface"
         className="w-full h-auto object-cover"
         initial={{
@@ -780,7 +780,7 @@ During usability testing, users were able to locate key actions on their first a
       }}
     >
       <motion.img
-       src="/assets/Porterflight/Porter07.png"
+       src="/assets/Porterflight/Porter07.webp"
         alt="Edumate interface"
         className="w-full h-auto object-cover"
         initial={{
@@ -880,7 +880,7 @@ During usability testing, users were able to locate key actions on their first a
       }}
     >
       <motion.img
-       src="/assets/Porterflight/Porter08.png"
+       src="/assets/Porterflight/Porter08.webp"
         alt="Edumate interface"
         className="w-full h-auto object-cover"
         initial={{
@@ -987,7 +987,7 @@ I proposed validating the feature through usability testing by observing whether
       }}
     >
       <motion.img
-         src="/assets/Porterflight/Porter09.png"
+         src="/assets/Porterflight/Porter09.webp"
         alt="Edumate interface"
         className="w-full h-auto object-cover"
         initial={{

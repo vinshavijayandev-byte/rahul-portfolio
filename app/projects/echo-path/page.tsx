@@ -270,7 +270,7 @@ export default function EchopathPage() {
     }}
   >
     <img
-      src="/assets/Echopath/Echopath01.png"
+      src="/assets/Echopath/Echopath01.webp"
       alt="Edumate project"
       className="w-full h-auto object-cover"
     />
@@ -355,7 +355,7 @@ export default function EchopathPage() {
       }}
     >
       <motion.img
-        src="/assets/Echopath/Echopath02.png"
+        src="/assets/Echopath/Echopath02.webp"
         alt="Visual Language 1"
         className="w-full h-[300px] md:h-[700px] object-cover"
         whileHover={{
@@ -382,7 +382,7 @@ export default function EchopathPage() {
       }}
     >
       <motion.img
-        src="/assets/Echopath/Echopath03.png"
+        src="/assets/Echopath/Echopath03.webp"
         alt="Visual Language 2"
         className="w-full h-[300px] md:h-[700px] object-cover"
         whileHover={{
@@ -504,7 +504,7 @@ or navigation challenges while exploring cultural heritage sites.
       {/* Author */}
       <div className="flex items-center gap-4 mt-10">
         <img
-          src="/assets/Echopath/1.png"
+          src="/assets/Echopath/1.webp"
           alt="Author"
           className="w-12 h-12 md:w-20 md:h-20 rounded-full object-cover"
         />
@@ -540,7 +540,7 @@ or navigation challenges while exploring cultural heritage sites.
       {/* Author */}
       <div className="flex items-center gap-4 mt-10">
         <img
-        src="/assets/Echopath/2.png"
+        src="/assets/Echopath/2.webp"
           alt="Author"
           className="w-12 h-12 md:w-20 md:h-20 rounded-full object-cover"
         />
@@ -576,7 +576,7 @@ or navigation challenges while exploring cultural heritage sites.
       {/* Author */}
       <div className="flex items-center gap-4 mt-10">
         <img
-           src="/assets/Echopath/3.png"
+           src="/assets/Echopath/3.webp"
           alt="Author"
           className="w-12 h-12 md:w-20 md:h-20 rounded-full object-cover"
         />
@@ -632,7 +632,7 @@ or navigation challenges while exploring cultural heritage sites.
     }}
   >
     <img
-      src="/assets/Echopath/Echopath04.png"
+      src="/assets/Echopath/Echopath04.webp"
       alt="Edumate project"
       className="w-full h-auto object-cover"
     />
@@ -675,7 +675,7 @@ or navigation challenges while exploring cultural heritage sites.
     }}
   >
     <img
-      src="/assets/Echopath/Echopath05.png"
+      src="/assets/Echopath/Echopath05.webp"
       alt="Edumate project"
       className="w-full h-auto object-cover"
     />
@@ -952,7 +952,7 @@ Narrative Journey Mode offers a continuous, story-driven audio experience for vi
     }}
   >
     <img
-      src="/assets/Echopath/LowFidelity.png"
+      src="/assets/Echopath/LowFidelity.webp"
       alt="Edumate project"
       className="w-full h-auto object-cover"
     />
@@ -995,7 +995,7 @@ Narrative Journey Mode offers a continuous, story-driven audio experience for vi
     }}
   >
     <img
-      src="/assets/Echopath/LowFideility.png"
+      src="/assets/Echopath/LowFideility.webp"
       alt="Edumate project"
       className="w-full h-auto object-cover"
     />

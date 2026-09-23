@@ -20,107 +20,107 @@ const reveal = {
 
 const galleryImages = [
   {
-    src: "/assets/Madeforthefeed/Burger-King-01.png",
+    src: "/assets/Madeforthefeed/Burger-King-01.webp",
     title: "Location-Based Experience",
   },
   {
-    src: "/assets/Madeforthefeed/Burger-King-02.png",
+    src: "/assets/Madeforthefeed/Burger-King-02.webp",
     title: "Audio AR Interface",
   },
   {
-   src: "/assets/Madeforthefeed/Burger-King-03.png",
+   src: "/assets/Madeforthefeed/Burger-King-03.webp",
     title: "Cultural Discovery",
   },
   {
-    src: "/assets/Madeforthefeed/Burger-King-04.png",
+    src: "/assets/Madeforthefeed/Burger-King-04.webp",
     title: "Interactive Map",
   },
   {
-     src: "/assets/Madeforthefeed/Burger-King-05.png",
+     src: "/assets/Madeforthefeed/Burger-King-05.webp",
     title: "Heritage Stories",
   },
   {
-   src: "/assets/Madeforthefeed/Burger-King-06.png",
+   src: "/assets/Madeforthefeed/Burger-King-06.webp",
     title: "Immersive Audio",
   },
   {
-    src: "/assets/Madeforthefeed/Oreo-03.png",
+    src: "/assets/Madeforthefeed/Oreo-03.webp",
     title: "Exploration Flow",
   },
   {
-   src: "/assets/Madeforthefeed/Oreo-02.png",
+   src: "/assets/Madeforthefeed/Oreo-02.webp",
     title: "Place & Memory",
   },
   {
-   src: "/assets/Madeforthefeed/Oreo-01.png",
+   src: "/assets/Madeforthefeed/Oreo-01.webp",
     title: "User Journey",
   },
   {
-  src: "/assets/Madeforthefeed/Whiskey-01.png",
+  src: "/assets/Madeforthefeed/Whiskey-01.webp",
     title: "Final Experience",
   },
   {
-  src: "/assets/Madeforthefeed/Nescafe-02.png",
+  src: "/assets/Madeforthefeed/Nescafe-02.webp",
     title: "Final Experience",
   },
   {
-  src: "/assets/Madeforthefeed/Nescafe-01.png",
+  src: "/assets/Madeforthefeed/Nescafe-01.webp",
     title: "Final Experience",
   },
    {
-  src: "/assets/Madeforthefeed/Mirinda-01.png",
+  src: "/assets/Madeforthefeed/Mirinda-01.webp",
     title: "Final Experience",
   },
      {
-  src: "/assets/Madeforthefeed/Mirinda-03.png",
+  src: "/assets/Madeforthefeed/Mirinda-03.webp",
     title: "Final Experience",
   },
      {
-  src: "/assets/Madeforthefeed/Mirinda-02.png",
+  src: "/assets/Madeforthefeed/Mirinda-02.webp",
     title: "Final Experience",
   },
    {
-  src: "/assets/Madeforthefeed/Kitkat.png",
+  src: "/assets/Madeforthefeed/Kitkat.webp",
     title: "Final Experience",
   },
      {
-  src: "/assets/Madeforthefeed/Adidas01.png",
+  src: "/assets/Madeforthefeed/Adidas01.webp",
     title: "Final Experience",
   },
      {
-  src: "/assets/Madeforthefeed/Adidas02.png",
+  src: "/assets/Madeforthefeed/Adidas02.webp",
     title: "Final Experience",
   },
        {
-  src: "/assets/Madeforthefeed/CAR-01.png",
+  src: "/assets/Madeforthefeed/CAR-01.webp",
     title: "Final Experience",
   },
        {
-  src: "/assets/Madeforthefeed/CAR-02.png",
+  src: "/assets/Madeforthefeed/CAR-02.webp",
     title: "Final Experience",
   },
        {
-  src: "/assets/Madeforthefeed/CAR-03.png",
+  src: "/assets/Madeforthefeed/CAR-03.webp",
     title: "Final Experience",
   },
        {
-  src: "/assets/Madeforthefeed/CAR-04.png",
+  src: "/assets/Madeforthefeed/CAR-04.webp",
     title: "Final Experience",
   },
     {
-  src: "/assets/Madeforthefeed/Bike-01.png",
+  src: "/assets/Madeforthefeed/Bike-01.webp",
     title: "Final Experience",
   },
     {
-  src: "/assets/Madeforthefeed/Bike-02.png",
+  src: "/assets/Madeforthefeed/Bike-02.webp",
     title: "Final Experience",
   },
     {
-  src: "/assets/Madeforthefeed/Bike-03.png",
+  src: "/assets/Madeforthefeed/Bike-03.webp",
     title: "Final Experience",
   },
     {
-  src: "/assets/Madeforthefeed/f1.png",
+  src: "/assets/Madeforthefeed/f1.webp",
     title: "Final Experience",
   },
 ];

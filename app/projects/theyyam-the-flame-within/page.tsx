@@ -272,7 +272,7 @@ md:text-8xl
     }}
   >
     <img
-      src="/assets/Theyyam/Theyyam01.png"
+      src="/assets/Theyyam/Theyyam01.webp"
       alt="Edumate project"
       className="w-full h-auto object-cover"
     />
@@ -348,7 +348,7 @@ Kurathi - The Vengeful Mother  </p>
     }}
   >
     <img
-      src="/assets/Theyyam/Kurathi.png"
+      src="/assets/Theyyam/Kurathi.webp"
       alt="Edumate interface"
       className="w-full h-auto object-cover"
     />
@@ -393,7 +393,7 @@ Vishnumoorthy - The Preserver  </p>
     }}
   >
     <img
-        src="/assets/Theyyam/Vishnumoorthy.png"
+        src="/assets/Theyyam/Vishnumoorthy.webp"
       alt="Edumate interface"
       className="w-full h-auto object-cover"
     />
@@ -435,7 +435,7 @@ Gulikan - The Dark Predator  </p>
     }}
   >
     <img
-        src="/assets/Theyyam/Gulikan.png"
+        src="/assets/Theyyam/Gulikan.webp"
       alt="Edumate interface"
       className="w-full h-auto object-cover"
     />
@@ -478,7 +478,7 @@ Rakthachamundi - The Blood Goddess  </p>
     }}
   >
     <img
-        src="/assets/Theyyam/Rakthachamundy.png"
+        src="/assets/Theyyam/Rakthachamundy.webp"
       alt="Edumate interface"
       className="w-full h-auto object-cover"
     />
@@ -547,7 +547,7 @@ Kaavu      </h4>
         }}
       >
         <motion.img
-            src="/assets/Theyyam/Kaavu.png"
+            src="/assets/Theyyam/Kaavu.webp"
           alt="Exploring through place"
           className="
             w-full
@@ -602,7 +602,7 @@ Village Paths      </h4>
         }}
       >
         <motion.img
-          src="/assets/Theyyam/Villagepaths.png"
+          src="/assets/Theyyam/Villagepaths.webp"
           alt="Stories in the environment"
           className="
             w-full
@@ -656,7 +656,7 @@ River Banks      </h4>
         }}
       >
         <motion.img
-         src="/assets/Theyyam/RiverBanks.png"
+         src="/assets/Theyyam/RiverBanks.webp"
           alt="Exploring through place"
           className="
             w-full
@@ -711,7 +711,7 @@ Temples      </h4>
         }}
       >
         <motion.img
-            src="/assets/Theyyam/Temples.png"
+            src="/assets/Theyyam/Temples.webp"
           alt="Stories in the environment"
           className="
             w-full
@@ -751,7 +751,7 @@ Temples      </h4>
     }}
   >
     <motion.img
-        src="/assets/Theyyam/Theyyam02.png"
+        src="/assets/Theyyam/Theyyam02.webp"
       alt="World and Environment"
       className="
         w-full
@@ -926,7 +926,7 @@ Temples      </h4>
         }}
       >
         <motion.img
-            src="/assets/Theyyam/GamePlay01.png"
+            src="/assets/Theyyam/GamePlay01.webp"
           alt="Exploring through place"
           className="
             w-full
@@ -979,7 +979,7 @@ Temples      </h4>
         }}
       >
         <motion.img
-            src="/assets/Theyyam/GamePlay02.png"
+            src="/assets/Theyyam/GamePlay02.webp"
           alt="Stories in the environment"
           className="
             w-full
@@ -1090,7 +1090,7 @@ Temples      </h4>
       }}
     >
       <motion.img
-        src="/assets/Theyyam/Theyyam03.png"
+        src="/assets/Theyyam/Theyyam03.webp"
         alt="Exploring through place"
         className="
           w-full
@@ -1139,7 +1139,7 @@ Temples      </h4>
       }}
     >
       <motion.img
-        src="/assets/Theyyam/Theyyam04.png"
+        src="/assets/Theyyam/Theyyam04.webp"
         alt="Stories in the environment"
         className="
           w-full
@@ -1188,7 +1188,7 @@ Temples      </h4>
       }}
     >
       <motion.img
-        src="/assets/Theyyam/Theyyam05.png"
+        src="/assets/Theyyam/Theyyam05.webp"
         alt="Exploring through place"
         className="
           w-full
@@ -1237,7 +1237,7 @@ Temples      </h4>
       }}
     >
       <motion.img
-        src="/assets/Theyyam/Theyyam06.png"
+        src="/assets/Theyyam/Theyyam06.webp"
         alt="Stories in the environment"
         className="
           w-full
@@ -1274,7 +1274,7 @@ Temples      </h4>
     }}
   >
     <motion.img
-     src="/assets/Theyyam/Theyyam07.png"
+     src="/assets/Theyyam/Theyyam07.webp"
       alt="World and Environment"
       className="
         w-full

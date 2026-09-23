@@ -265,7 +265,7 @@ export default function EdumatePage() {
     }}
   >
     <img
-      src="/assets/Edumate/Edumate01.png"
+      src="/assets/Edumate/Edumate01.webp"
       alt="Edumate project"
       className="w-full h-auto object-cover"
     />
@@ -309,7 +309,7 @@ export default function EdumatePage() {
     }}
   >
     <img
-      src="/assets/Edumate/Edumate02.png"
+      src="/assets/Edumate/Edumate02.webp"
       alt="Edumate interface"
       className="w-full h-auto object-cover"
     />
@@ -363,7 +363,7 @@ Track your project
   }}
 >
   <img
-    src="/assets/Edumate/Edumate03.png"
+    src="/assets/Edumate/Edumate03.webp"
     alt="Edumate interface"
     className="
       w-full
@@ -421,7 +421,7 @@ Track your project
   }}
 >
   <img
-    src="/assets/Edumate/Edumate04.png"
+    src="/assets/Edumate/Edumate04.webp"
     alt="Edumate interface"
     className="
       w-full
@@ -480,7 +480,7 @@ Effortless Subject Navigation
   }}
 >
   <img
-    src="/assets/Edumate/Edumate05.png"
+    src="/assets/Edumate/Edumate05.webp"
     alt="Edumate interface"
     className="
       w-full
@@ -538,7 +538,7 @@ Effortless Subject Navigation
   }}
 >
   <img
-    src="/assets/Edumate/Edumate06.png"
+    src="/assets/Edumate/Edumate06.webp"
     alt="Edumate interface"
     className="
       w-full
@@ -636,7 +636,7 @@ Tailored Feedback from Teachers
     }}
   >
     <img
-      src="/assets/Edumate/Edumate07.png"
+      src="/assets/Edumate/Edumate07.webp"
       alt="Edumate interface"
       className="w-full h-auto object-cover"
     />
