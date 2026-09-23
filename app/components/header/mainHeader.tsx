@@ -15,7 +15,7 @@ const MainHeader: React.FunctionComponent<IMainHeaderProps> = (props) => {
           <div className="relative flex items-center gap-2 text-xl">
            
             <img
-              src="/assets/HomePage/RahulDP.png"
+              src="/RahulDP.png"
               alt="Rahul"
               className="w-20 h-20 rounded-full object-cover"
             />
