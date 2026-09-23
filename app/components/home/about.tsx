@@ -303,7 +303,7 @@ const AboutSec: React.FunctionComponent = () => {
             {imgRow2Arr.map((item) => (
               <motion.div
                 key={item.id}
-                className="mx-2 md:mx-3 shrink-0 py-5 px-3"
+                className="mx-2 md:mx-3 shrink-0 md:px-5 md:py-3"
                 whileHover={{
                   scale: 1.12,
                   zIndex: 30,
@@ -316,7 +316,7 @@ const AboutSec: React.FunctionComponent = () => {
                 <img
                   src={item.src}
                   alt={item.title || "Daily driver"}
-                  className="h-12 w-12 md:h-20 md:w-20 object-cover rounded-xl shadow-md transition-shadow duration-300 hover:shadow-xl hover:scale-110"
+                  className="h-8 w-8 md:h-20 md:w-20 object-cover rounded-xl shadow-md transition-shadow duration-300 hover:shadow-xl hover:scale-110"
                 />
               </motion.div>
             ))}
