@@ -23,9 +23,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={barlowCondensed.variable}>
       <head>
-        <link rel="icon" href="/RahulDp.png" sizes="any" />
-        <meta property="og:image" content="/RahulDp.png" />
-        <meta property="twitter:image" content="/RahulDp.png" />
+        <link rel="icon" href="/favicon.png" sizes="any" />
+        <meta property="og:image" content="/meta.png" />
+        <meta property="twitter:image" content="/meta.png" />
       </head>
 
       <body>
