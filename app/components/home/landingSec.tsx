@@ -60,9 +60,11 @@ const LandingSection: React.FunctionComponent = () => {
   }}
   className="text-black z-10"
 >
+{/* Desktop */}
+<div className="hidden md:block">
   {headingLines.map((line, lineIndex) => (
     <React.Fragment key={line}>
-      <span className="inline-flex flex-wrap justify-center text-4xl md:text-8xl font-display-custom ">
+      <span className="inline-flex flex-wrap justify-center text-8xl font-display-custom">
         {line.split(" ").map((word, wordIndex) => (
           <motion.span
             key={wordIndex}
@@ -78,6 +80,31 @@ const LandingSection: React.FunctionComponent = () => {
       {lineIndex === 0 && <br />}
     </React.Fragment>
   ))}
+</div>
+
+{/* Mobile */}
+<div className="md:hidden text-center text-[2.9rem] font-display-custom">
+  <motion.div
+    variants={wordAnimation}
+    custom={0}
+  >
+    FROM FRICTION
+  </motion.div>
+
+  <motion.div
+    variants={wordAnimation}
+    custom={1}
+  >
+    TO FLOW
+  </motion.div>
+
+  <motion.div
+    variants={wordAnimation}
+    custom={2}
+  >
+    FLOW TO GROWTH
+  </motion.div>
+</div>
 </motion.h2>
           </div>
 

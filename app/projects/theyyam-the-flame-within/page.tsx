@@ -53,7 +53,7 @@ export default function TheyyamPage() {
     },
   }}
 className="
- text-4xl
+ text-3xl
 md:text-8xl
  
   font-extrabold
@@ -137,7 +137,7 @@ md:text-8xl
           md:text-2xl
           uppercase
           tracking-wider
-          text-black
+          text-gray-400
           mb-1
           md:mb-2
         "
@@ -216,7 +216,7 @@ md:text-8xl
           md:mb-2
         "
       >
-        Duration :
+        Duration:
       </p>
 
       <p className="text-sm sm:text-base md:text-2xl break-words">
@@ -282,7 +282,7 @@ md:text-8xl
   {/* First Text */}
 
 <motion.div
-  className="w-full md:mt-10 mt-10"
+  className="w-full md:mt-10 mt-6"
   variants={reveal}
   initial="hidden"
   whileInView="visible"
@@ -296,7 +296,7 @@ md:text-8xl
   }}
 >
   {/* Title */}
-  <p className="text-2xl md:text-3xl font-normal text-black md:mb-4 mb-2">
+  <p className="text-2xl md:text-3xl md:font-normal font-bold text-black md:mb-4 mb-2">
    Story Overview
   </p>
 
@@ -307,7 +307,7 @@ md:text-8xl
 </motion.div>
 
 <motion.div
-  className="w-full md:mt-20 mt-10"
+  className="w-full md:mt-20 mt-6"
   variants={reveal}
   initial="hidden"
   whileInView="visible"
@@ -321,7 +321,7 @@ md:text-8xl
   }}
 >
   {/* Title */}
-  <p className="text-2xl md:text-3xl  text-black md:mb-4 mb-2 font-normal">
+  <p className="text-2xl md:text-3xl  text-black md:mb-4 mb-2 md:font-normal font-bold">
    Theyyam Forms - Player Progression
   </p>
 
@@ -489,11 +489,11 @@ Rakthachamundi - The Blood Goddess  </p>
 
 
 {/* World and Environment */}
-<section className="w-full md:mt-20 mt-10">
+<section className="w-full md:mt-20 mt-6">
 
   {/* Section Title */}
   <motion.h3
-    className="text-2xl md:text-3xl font-medium"
+    className="text-2xl md:text-3xl md:font-medium font-bold"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -511,7 +511,7 @@ Rakthachamundi - The Blood Goddess  </p>
 
 
   {/* Two Column Content */}
-  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-10 md:mt-10 mt-4">
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-10 md:mt-10 mt-2">
 
     {/* Column 1 */}
     <motion.div
@@ -803,7 +803,8 @@ Temples      </h4>
     className="
       text-2xl
       md:text-3xl
-      font-medium
+      md:font-medium
+      font-bold
       tracking-tight
     "
     initial={{
@@ -1013,7 +1014,7 @@ Temples      </h4>
 
      {/* sixth Text */}
   <motion.div
-    className="w-full md:mt-10 mt-10"
+    className="w-full md:mt-10 mt-6"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -1026,7 +1027,7 @@ Temples      </h4>
       amount: 0.3,
     }}
   >
-    <h3 className="text-2xl md:text-3xl font-medium md:mb-4 mb-2">
+    <h3 className="text-2xl md:text-3xl md:font-medium font-bold md:mb-4 mb-2">
   Game Play Overview
 </h3>
     <p className="w-full text-xl md:text-2xl leading-relaxed">
@@ -1036,7 +1037,7 @@ Temples      </h4>
 
      {/* seven Text */}
   <motion.div
-    className="w-full md:mt-10 mt-10"
+    className="w-full md:mt-10 mt-6"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -1049,7 +1050,7 @@ Temples      </h4>
       amount: 0.3,
     }}
   >
-    <h3 className="text-2xl md:text-3xl font-medium mb-4">
+    <h3 className="text-2xl md:text-3xl md:font-medium font-bold mb-4">
   Key Features
 </h3>
     <p className="w-full text-xl md:text-2xl leading-relaxed">
@@ -1294,7 +1295,7 @@ Temples      </h4>
 
      {/* eight Text */}
   <motion.div
-    className="w-full md:mt-20 mt-10"
+    className="w-full md:mt-20 mt-6"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -1307,7 +1308,7 @@ Temples      </h4>
       amount: 0.3,
     }}
   >
-    <h3 className="text-2xl md:text-3xl font-medium md:mb-4 mb-2">
+    <h3 className="text-2xl md:text-3xl md:font-medium font-bold md:mb-4 mb-2">
   Inspiration
 </h3>
     <p className="w-full text-xl md:text-2xl leading-relaxed">

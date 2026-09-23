@@ -132,7 +132,7 @@ export default function EdumatePage() {
           md:text-2xl
           uppercase
           tracking-wider
-          text-black
+          text-gray-400
           mb-1
           md:mb-2
         "
@@ -209,7 +209,7 @@ export default function EdumatePage() {
           md:mb-2
         "
       >
-        Duration :
+        Duration:
       </p>
 
       <p className="text-sm sm:text-base md:text-2xl">
@@ -318,7 +318,7 @@ export default function EdumatePage() {
 
   {/* Second Text */}
   <motion.div
-    className="w-full md:mt-10 mt-10"
+    className="w-full md:mt-10 mt-6"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -331,7 +331,7 @@ export default function EdumatePage() {
       amount: 0.3,
     }}
   >
-    <h3 className="text-2xl md:text-3xl font-medium md:mb-4 mb-2">
+    <h3 className="text-2xl md:text-3xl md:font-medium font-bold md:mb-4 mb-2">
 Track your project
 </h3>
     <p className="w-full text-xl md:text-2xl leading-relaxed">
@@ -376,7 +376,7 @@ Track your project
 
     {/* third Text */}
   <motion.div
-    className="w-full md:mt-10 mt-10"
+    className="w-full md:mt-10 mt-6"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -389,7 +389,7 @@ Track your project
       amount: 0.3,
     }}
   >
-    <h3 className="text-2xl md:text-3xl font-medium md:mb-4 mb-2" >
+    <h3 className="text-2xl md:text-3xl md:font-medium font-bold md:mb-4 mb-2" >
   Seamless Communication with Teachers
 </h3>
     <p className="w-full text-xl md:text-2xl leading-relaxed">
@@ -435,7 +435,7 @@ Track your project
 
     {/* fourth Text */}
   <motion.div
-    className="w-full md:mt-10 mt-10"
+    className="w-full md:mt-10 mt-6"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -448,7 +448,7 @@ Track your project
       amount: 0.3,
     }}
   >
-    <h3 className="text-2xl md:text-3xl font-medium md:mb-4 mb-2">
+    <h3 className="text-2xl md:text-3xl md:font-medium font-bold md:mb-4 mb-2">
 Effortless Subject Navigation
 </h3>
     <p className="w-full text-xl md:text-2xl leading-relaxed">
@@ -493,7 +493,7 @@ Effortless Subject Navigation
 
     {/* fifth Text */}
   <motion.div
-    className="w-full md:mt-10 mt-10"
+    className="w-full md:mt-10 mt-6"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -506,7 +506,7 @@ Effortless Subject Navigation
       amount: 0.3,
     }}
   >
-    <h3 className="text-2xl md:text-3xl font-medium md:mb-4 mb-2">
+    <h3 className="text-2xl md:text-3xl md:font-medium font-bold md:mb-4 mb-2">
  Score Card
 </h3>
     <p className="w-full text-xl md:text-2xl leading-relaxed">
@@ -551,7 +551,7 @@ Effortless Subject Navigation
 
      {/* sixth Text */}
   <motion.div
-    className="w-full md:mt-10 mt-10"
+    className="w-full md:mt-10 mt-6"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -564,7 +564,7 @@ Effortless Subject Navigation
       amount: 0.3,
     }}
   >
-    <h3 className="text-2xl md:text-3xl font-medium md:mb-4 mb-2">
+    <h3 className="text-2xl md:text-3xl md:font-medium font-bold md:mb-4 mb-2">
   Motivation through Visual Progress
 </h3>
     <p className="w-full text-xl md:text-2xl leading-relaxed">
@@ -574,7 +574,7 @@ Effortless Subject Navigation
 
      {/* seven Text */}
   <motion.div
-    className="w-full md:mt-10 mt-4"
+    className="w-full md:mt-10 mt-6 s"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -587,7 +587,7 @@ Effortless Subject Navigation
       amount: 0.3,
     }}
   >
-    <h3 className="text-2xl md:text-3xl font-medium md:mb-4 mb-2">
+    <h3 className="text-2xl md:text-3xl md:font-medium font-bold md:mb-4 mb-2">
 Tailored Feedback from Teachers
 </h3>
     <p className="w-full text-xl md:text-2xl leading-relaxed">
@@ -597,7 +597,7 @@ Tailored Feedback from Teachers
 
      {/* eight Text */}
   <motion.div
-    className="w-full md:mt-10 mt-4"
+    className="w-full md:mt-10 mt-6"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -610,7 +610,7 @@ Tailored Feedback from Teachers
       amount: 0.3,
     }}
   >
-    <h3 className="text-2xl md:text-3xl font-medium md:mb-4 mt-2">
+    <h3 className="text-2xl md:text-3xl md:font-medium font-bold md:mb-4 mt-2">
  Structured Learning for Focused Study
 </h3>
     <p className="w-full text-xl md:text-2xl leading-relaxed mt-4">

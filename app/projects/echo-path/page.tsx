@@ -135,7 +135,7 @@ export default function EchopathPage() {
           md:text-2xl
           uppercase
           tracking-wider
-          text-black
+          text-gray-400
           mb-1
           md:mb-2
         "
@@ -279,7 +279,7 @@ export default function EchopathPage() {
 
   {/* First Text */}
   <motion.div
-    className="w-full md:mt-10 mt-10"
+    className="w-full md:mt-10 mt-4"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -292,7 +292,7 @@ export default function EchopathPage() {
       amount: 0.3,
     }}
   >
-     <h3 className="text-2xl md:text-3xl font-medium md:mb-4 mb-2">
+     <h3 className="text-2xl md:text-3xl md:font-medium font-bold md:mb-4 mb-2">
  Problem
 </h3>
     <p className="w-full text-xl md:text-2xl leading-relaxed">
@@ -302,7 +302,7 @@ export default function EchopathPage() {
 
 {/* Second Text */}
 <motion.div
-  className="w-full md:mt-10 mt-10"
+  className="w-full md:mt-10 mt-4"
   variants={reveal}
   initial="hidden"
   whileInView="visible"
@@ -315,7 +315,7 @@ export default function EchopathPage() {
     amount: 0.3,
   }}
 >
-  <h3 className="text-2xl md:text-3xl font-medium md:mb-4 mb-2">
+  <h3 className="text-2xl md:text-3xl md:font-medium font-bold md:mb-4 mb-2">
    Solution
   </h3>
 
@@ -404,7 +404,7 @@ export default function EchopathPage() {
 
   {/* Second Text */}
   <motion.div
-    className="w-full md:mt-10 mt-10"
+    className="w-full md:mt-10 mt-4"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -440,7 +440,7 @@ export default function EchopathPage() {
     }}
   >
    
-    <p className="w-full text-2xl md:text-4xl leading-relaxed font-medium">
+    <p className="w-full text-2xl md:text-4xl leading-relaxed md:font-medium font-bold">
      <span className="text-[#fc310c]">Before starting the design process,</span>   I sought to understand whether visitors experienced confusion, information overload,
 or navigation challenges while exploring cultural heritage sites.
     </p>
@@ -449,7 +449,7 @@ or navigation challenges while exploring cultural heritage sites.
 
 {/* 4 Text */}
 <motion.div
-  className="w-full md:mt-20 mt-10"
+  className="w-full md:mt-20 mt-6"
   variants={reveal}
   initial="hidden"
   whileInView="visible"
@@ -462,7 +462,7 @@ or navigation challenges while exploring cultural heritage sites.
     amount: 0.3,
   }}
 >
-  <h3 className="text-2xl md:text-3xl font-medium">
+  <h3 className="text-2xl md:text-3xl md:font-medium font-bold">
     User Interview
   </h3>
 </motion.div>
@@ -597,7 +597,7 @@ or navigation challenges while exploring cultural heritage sites.
 
     {/* 5 Text */}
   <motion.div
-    className="w-full md:mt-10 mt-10"
+    className="w-full md:mt-10 mt-4"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -640,7 +640,7 @@ or navigation challenges while exploring cultural heritage sites.
 
      {/* 6 Text */}
   <motion.div
-    className="w-full md:mt-10 mt-10"
+    className="w-full md:mt-10 mt-6"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -683,7 +683,7 @@ or navigation challenges while exploring cultural heritage sites.
 
     {/* 6 Text */}
   <motion.div
-    className="w-full md:mt-10 mt-10"
+    className="w-full md:mt-10 mt-4"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -717,7 +717,7 @@ or navigation challenges while exploring cultural heritage sites.
     amount: 0.2,
   }}
 >
-  <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-4">
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-4">
 
     {/* Card 1 */}
     <motion.div
@@ -823,7 +823,7 @@ Visitors preferred hands-free exploration, with audio automatically playing as t
 
   {/* 7 Text */}
   <motion.div
-    className="w-full md:mt-10 mt-10"
+    className="w-full md:mt-10 mt-4"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -845,7 +845,7 @@ Visitors preferred hands-free exploration, with audio automatically playing as t
 
     {/* 8 Text */}
   <motion.div
-    className="w-full md:mt-20 mt-10"
+    className="w-full md:mt-20 mt-6"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -858,7 +858,7 @@ Visitors preferred hands-free exploration, with audio automatically playing as t
       amount: 0.3,
     }}
   >
-    <h3 className="text-3xl md:text-4xl font-medium mb-4">
+    <h3 className="text-3xl md:text-4xl md:font-medium font-bold mb-4">
 Audio Content Concept
 </h3>
    
@@ -879,7 +879,7 @@ Audio Content Concept
       amount: 0.3,
     }}
   >
-    <h3 className="text-2xl md:text-3xl font-medium md:mb-4 mb-2">
+    <h3 className="text-2xl md:text-3xl md:font-medium font-bold md:mb-4 mb-2">
   Fact Peek Content
 </h3>
     <p className="w-full text-xl md:text-2xl leading-relaxed">
@@ -892,7 +892,7 @@ it shares quick facts, local stories, and cultural insights relevant to each loc
 
       {/* third Text */}
   <motion.div
-    className="w-full md:mt-10 mt-10"
+    className="w-full md:mt-10 mt-6"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -905,7 +905,7 @@ it shares quick facts, local stories, and cultural insights relevant to each loc
       amount: 0.3,
     }}
   >
-    <h3 className="text-2xl md:text-3xl font-medium md:mb-4 mb-2">
+    <h3 className="text-2xl md:text-3xl md:font-medium font-bold md:mb-4 mb-2">
     Narrative Content
 </h3>
     <p className="w-full text-xl md:text-2xl leading-relaxed">
@@ -917,7 +917,7 @@ Narrative Journey Mode offers a continuous, story-driven audio experience for vi
 
       {/* 8 Text */}
   <motion.div
-    className="w-full md:mt-20 mt-10"
+    className="w-full md:mt-20 mt-6"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -930,7 +930,7 @@ Narrative Journey Mode offers a continuous, story-driven audio experience for vi
       amount: 0.3,
     }}
   >
-    <h3 className="text-2xl md:text-3xl font-medium mb-4">
+    <h3 className="text-2xl md:text-3xl md:font-medium font-bold mb-4">
  Low fidelity design
 </h3>
    
@@ -960,7 +960,7 @@ Narrative Journey Mode offers a continuous, story-driven audio experience for vi
 
        {/* 8 Text */}
   <motion.div
-    className="w-full md:mt-20 mt-10"
+    className="w-full md:mt-20 mt-6"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -973,7 +973,7 @@ Narrative Journey Mode offers a continuous, story-driven audio experience for vi
       amount: 0.3,
     }}
   >
-    <h3 className="text-2xl md:text-3xl font-medium md:mb-4">
+    <h3 className="text-2xl md:text-3xl md:font-medium font-bold md:mb-4">
   High fidelity design
 </h3>
    

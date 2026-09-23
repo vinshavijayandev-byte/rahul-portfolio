@@ -117,36 +117,40 @@ const AskAwaySec: React.FunctionComponent = () => {
                   }
                 }}
                 aria-expanded={isOpen}
-                className="
-                  w-full
-                  border
-                  border-black
-                  px-6
-                  py-5
-                  cursor-pointer
-                  select-none
-                "
+               className="
+  w-full
+  border
+  border-black
+  px-3
+  py-4
+  md:px-6
+  md:py-5
+  cursor-pointer
+  select-none
+"
               >
-                {/* Title + Plus */}
-                <div className="flex items-center justify-between gap-4 md:gap-6">
-                  <p className="text-lg md:text-2xl font-medium text-black">
-                    {item.title}
-                  </p>
+              
+            {/* Title + Plus */}
+<div className="flex items-center justify-between gap-2 md:gap-6">
+  <p className="text-[15px] sm:text-base md:text-2xl font-medium text-black whitespace-nowrap">
+    {item.title}
+  </p>
 
-                  <span
-                    className="
-                      shrink-0
-                      text-4xl
-                      font-medium
-                      leading-none
-                      text-[#E84629]
-                      transition-transform
-                      duration-300
-                    "
-                  >
-                    {isOpen ? "−" : "+"}
-                  </span>
-                </div>
+  <span
+    className="
+      shrink-0
+      text-3xl
+      md:text-4xl
+      font-medium
+      leading-none
+      text-[#E84629]
+      transition-transform
+      duration-300
+    "
+  >
+    {isOpen ? "−" : "+"}
+  </span>
+</div>
 
                 {/* Answer */}
                 <div

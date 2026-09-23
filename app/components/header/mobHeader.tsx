@@ -4,7 +4,6 @@ import * as React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-import Icon from "@/app/components/common/iconfy";
 import { useAnimate, stagger } from "framer-motion";
 import { useState, useEffect } from "react";
 import MenuItems from "./menuItems";
@@ -135,11 +134,9 @@ const MobHeader: React.FunctionComponent<IMobHeaderProps> = (props) => {
           w-full
         "
       >
-
         {/* LEFT SIDE - IMAGE + RAHUL */}
         <Link href="/">
           <div className="relative flex items-center gap-2">
-
             {/* Rahul Image */}
             <img
               src="/assets/Homepage/RahulDP.png"
@@ -171,7 +168,6 @@ const MobHeader: React.FunctionComponent<IMobHeaderProps> = (props) => {
                 Rahul
               </h2>
             </div>
-
           </div>
         </Link>
 
@@ -179,32 +175,46 @@ const MobHeader: React.FunctionComponent<IMobHeaderProps> = (props) => {
         <div className="relative">
           <button
             className="
-              bg-slate-800
-              p-2
-              rounded-full
+              bg-transparent
+              p-1
+              flex
+              items-center
+              justify-center
             "
             onClick={handleMenuOpen}
             role="button"
             aria-label="menu"
           >
             {isMenuOpen ? (
-              <Icon
-                icon="ri-close-line"
-                className="
-                  text-[#fc310c]
-                  text-3xl
-                  text-main-grd
-                "
-              />
+              /* CLOSE ICON */
+              <div className="relative h-7 w-7 flex items-center justify-center">
+                <span
+                  className="
+                    absolute
+                    h-[3px]
+                    w-6
+                    rotate-45
+                    bg-black
+                  "
+                />
+
+                <span
+                  className="
+                    absolute
+                    h-[3px]
+                    w-6
+                    -rotate-45
+                    bg-black
+                  "
+                />
+              </div>
             ) : (
-              <Icon
-                icon="eva:menu-2-fill"
-                className="
-                  text-[#fc310c]
-                  text-3xl
-                  text-main-grd
-                "
-              />
+              /* 3 EQUAL HAMBURGER LINES */
+              <div className="flex w-7 flex-col items-center gap-[5px]">
+                <span className="block h-[3px] w-6 bg-black" />
+                <span className="block h-[3px] w-6 bg-black" />
+                <span className="block h-[3px] w-6 bg-black" />
+              </div>
             )}
           </button>
         </div>
@@ -224,7 +234,6 @@ const MobHeader: React.FunctionComponent<IMobHeaderProps> = (props) => {
         >
           <Menu />
         </div>
-
       </div>
     </section>
   );

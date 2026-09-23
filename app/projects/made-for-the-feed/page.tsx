@@ -241,7 +241,7 @@ export default function MadeForTheFeedPage() {
           md:text-2xl
           uppercase
           tracking-wider
-          text-black
+          text-gray-400
           mb-1
           md:mb-2
         "

@@ -135,7 +135,7 @@ export default function PorterFlightStatusPage() {
           md:text-2xl
           uppercase
           tracking-wider
-          text-black
+          text-gray-400
           mb-1
           md:mb-2
         "
@@ -214,7 +214,7 @@ export default function PorterFlightStatusPage() {
           md:mb-2
         "
       >
-        Duration :
+        Duration:
       </p>
 
       <p className="text-sm sm:text-base md:text-2xl break-words">
@@ -279,7 +279,7 @@ export default function PorterFlightStatusPage() {
 
   {/* First Text */}
   <motion.div
-    className="w-full md:mt-10 mt-10"
+    className="w-full md:mt-10 mt-6"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -292,7 +292,7 @@ export default function PorterFlightStatusPage() {
       amount: 0.3,
     }}
   >
-      <h3 className="text-2xl md:text-3xl font-medium md:mb-4 mb-2">
+      <h3 className="text-2xl md:text-3xl md:font-medium font-bold md:mb-4 mb-2">
  Problem
 </h3>
     <p className="w-full text-xl md:text-2xl leading-relaxed">
@@ -303,7 +303,7 @@ also overlooking critical operational states such as diverted flights.
 
   {/* Second Text */}
   <motion.div
-    className="w-full md:mt-10 mt-10"
+    className="w-full md:mt-10 mt-6"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -316,7 +316,7 @@ also overlooking critical operational states such as diverted flights.
       amount: 0.3,
     }}
   >
-      <h3 className="text-2xl md:text-3xl font-medium md:mb-4 mb-2">
+      <h3 className="text-2xl md:text-3xl md:font-medium font-bold md:mb-4 mb-2">
  Solution
 </h3>
     <p className="w-full text-xl md:text-2xl leading-relaxed">
@@ -329,7 +329,7 @@ also overlooking critical operational states such as diverted flights.
 
   {/* Second Text */}
   <motion.div
-    className="w-full md:mt-20 mt-10"
+    className="w-full md:mt-20 mt-6"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -342,7 +342,7 @@ also overlooking critical operational states such as diverted flights.
       amount: 0.3,
     }}
   >
-      <h3 className="text-2xl md:text-3xl font-medium md:mb-4 mb-2">
+      <h3 className="text-2xl md:text-3xl md:font-medium font-bold md:mb-4 mb-2">
  Old Main page
 </h3>
     
@@ -384,7 +384,7 @@ also overlooking critical operational states such as diverted flights.
 
   {/* third Text */}
   <motion.div
-    className="w-full md:mt-20 mt-10"
+    className="w-full md:mt-20 mt-6"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -397,7 +397,7 @@ also overlooking critical operational states such as diverted flights.
       amount: 0.3,
     }}
   >
-      <h3 className="text-2xl md:text-3xl font-medium md:mb-4 mb-2">
+      <h3 className="text-2xl md:text-3xl md:font-medium font-bold md:mb-4 mb-2">
 Old Result page
 </h3>
     
@@ -442,7 +442,7 @@ Old Result page
 
     {/* third Text */}
   <motion.div
-    className="w-full md:mt-20 mt-10"
+    className="w-full md:mt-20 mt-6"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -455,7 +455,7 @@ Old Result page
       amount: 0.3,
     }}
   >
-    <h3 className="text-2xl md:text-3xl font-medium md:mb-4 mb-2">
+    <h3 className="text-2xl md:text-3xl md:font-medium font-bold md:mb-4 mb-2">
  Status before everything else
 </h3>
     <p className="w-full text-xl md:text-2xl leading-relaxed">
@@ -524,7 +524,7 @@ Usability testing revealed that users struggled to find this information quickly
 
     {/* third Text */}
   <motion.div
-    className="w-full md:mt-10 mt-10"
+    className="w-full md:mt-10 mt-6"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -537,7 +537,7 @@ Usability testing revealed that users struggled to find this information quickly
       amount: 0.3,
     }}
   >
-    <h3 className="text-2xl md:text-3xl font-medium md:mb-4 mb-2">
+    <h3 className="text-2xl md:text-3xl md:font-medium font-bold md:mb-4 mb-2">
   Don't make users search for connections
 </h3>
     <p className="w-full text-xl md:text-2xl leading-relaxed">
@@ -605,7 +605,7 @@ Usability testing revealed that users struggled to find this information quickly
 
     {/* fourth Text */}
   <motion.div
-    className="w-full md:mt-10 mt-10"
+    className="w-full md:mt-10 mt-6"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -618,7 +618,7 @@ Usability testing revealed that users struggled to find this information quickly
       amount: 0.3,
     }}
   >
-    <h3 className="text-2xl md:text-3xl font-medium md:mb-4 mb-2">
+    <h3 className="text-2xl md:text-3xl md:font-medium font-bold md:mb-4 mb-2">
   Dark blue anchors the primary view
 </h3>
 <p className="w-full text-xl md:text-2xl leading-relaxed">
@@ -629,7 +629,7 @@ During usability testing, users were able to locate key actions on their first a
 
   {/* fourth Text */}
   <motion.div
-    className="w-full md:mt-20 mt-10"
+    className="w-full md:mt-20 mt-6"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -642,7 +642,7 @@ During usability testing, users were able to locate key actions on their first a
       amount: 0.3,
     }}
   >
-    <h3 className="text-2xl md:text-3xl font-medium md:mb-4 mb-2">
+    <h3 className="text-2xl md:text-3xl md:font-medium font-bold md:mb-4 mb-2">
  Landing Page
 </h3>
 
@@ -732,7 +732,7 @@ During usability testing, users were able to locate key actions on their first a
 
     {/* fifth Text */}
   <motion.div
-    className="w-full md:mt-10 mt-10"
+    className="w-full md:mt-10 mt-6"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -745,7 +745,7 @@ During usability testing, users were able to locate key actions on their first a
       amount: 0.3,
     }}
   >
-    <h3 className="text-2xl md:text-3xl font-medium md:mb-4 mb-2">
+    <h3 className="text-2xl md:text-3xl md:font-medium font-bold md:mb-4 mb-2">
  Results by Flight Number
 </h3>
 
@@ -832,7 +832,7 @@ During usability testing, users were able to locate key actions on their first a
 
     {/* fifth Text */}
   <motion.div
-    className="w-full md:mt-10 mt-10"
+    className="w-full md:mt-10 mt-6"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -845,7 +845,7 @@ During usability testing, users were able to locate key actions on their first a
       amount: 0.3,
     }}
   >
-    <h3 className="text-2xl md:text-3xl font-medium md:mb-4 mb-2">
+    <h3 className="text-2xl md:text-3xl md:font-medium font-bold md:mb-4 mb-2">
  Results by Route
 </h3>
 
@@ -936,7 +936,7 @@ During usability testing, users were able to locate key actions on their first a
 
      {/* sixth Text */}
   <motion.div
-    className="w-full md:mt-10 mt-10"
+    className="w-full md:mt-10 mt-6"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -949,7 +949,7 @@ During usability testing, users were able to locate key actions on their first a
       amount: 0.3,
     }}
   >
-    <h3 className="text-2xl md:text-3xl font-medium md:mb-4 mb-2">
+    <h3 className="text-2xl md:text-3xl md:font-medium font-bold md:mb-4 mb-2">
 Added aircraft info as a moment of delight
 </h3>
     <p className="w-full text-xl md:text-2xl leading-relaxed">
@@ -1041,7 +1041,7 @@ I proposed validating the feature through usability testing by observing whether
 
      {/* seven Text */}
   <motion.div
-    className="w-full md:mt-10 mt-10"
+    className="w-full md:mt-10 mt-6"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -1054,7 +1054,7 @@ I proposed validating the feature through usability testing by observing whether
       amount: 0.3,
     }}
   >
-    <h3 className="text-2xl md:text-3xl font-medium md:mb-4 mb-2" >
+    <h3 className="text-2xl md:text-3xl md:font-medium font-bold md:mb-4 mb-2" >
   Results
 </h3>
     <p className="w-full text-xl md:text-2xl leading-relaxed">
@@ -1070,7 +1070,7 @@ I proposed validating the feature through usability testing by observing whether
 
      {/* eight Text */}
   <motion.div
-    className="w-full md:mt-10 mt-10"
+    className="w-full md:mt-10 mt-6"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -1083,7 +1083,7 @@ I proposed validating the feature through usability testing by observing whether
       amount: 0.3,
     }}
   >
-    <h3 className="text-2xl md:text-3xl font-medium md:mb-4 mb-2">
+    <h3 className="text-2xl md:text-3xl md:font-medium font-bold md:mb-4 mb-2">
   What I’d do differently
 </h3>
     <p className="w-full text-xl md:text-2xl leading-relaxed">
@@ -1094,7 +1094,7 @@ I proposed validating the feature through usability testing by observing whether
 
    {/* nine Text */}
   <motion.div
-    className="w-full md:mt-10 mt-10"
+    className="w-full md:mt-10 mt-6"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -1107,7 +1107,7 @@ I proposed validating the feature through usability testing by observing whether
       amount: 0.3,
     }}
   >
-    <h3 className="text-2xl md:text-3xl font-medium md:mb-4 mb-2">
+    <h3 className="text-2xl md:text-3xl md:font-medium font-bold md:mb-4 mb-2">
   What I’d do differently
 </h3>
     <p className="w-full text-xl md:text-2xl leading-relaxed">
