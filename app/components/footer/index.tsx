@@ -30,7 +30,7 @@ export default function Contact() {
           max-w-screen-xl
           xl:mx-auto
           mx-5
-          min-h-[55vh]
+          min-h-[60vh]
           md:min-h-[80vh]
           flex
           flex-col
@@ -52,8 +52,10 @@ export default function Contact() {
               }}
               className="
                 w-full
+                max-w-full
                 mx-auto
                 text-center
+                self-center
                 font-extrabold
                 text-[2.4rem]
                 leading-[0.95]
@@ -90,30 +92,30 @@ export default function Contact() {
               whileTap={{
                 scale: 0.96,
               }}
-             className="
-  mx-auto
-  group
-  inline-flex
-  items-center
-  justify-center
-  mt-7
-  sm:mt-8
-  px-6
-  sm:px-8
-  py-3
-  sm:py-3.5
-  rounded-full
-  bg-white
-  text-black
-  font-semibold
-  text-lg
-  md:text-2xl
-  sm:text-xl
-  transition-colors
-  duration-300
-  hover:bg-white
-  hover:text-[#fc310c]
-"
+              className="
+                mx-auto
+                group
+                inline-flex
+                items-center
+                justify-center
+                mt-4
+                sm:mt-8
+                px-6
+                sm:px-8
+                py-3
+                sm:py-3.5
+                rounded-full
+                bg-white
+                text-black
+                font-semibold
+                text-lg
+                md:text-2xl
+                sm:text-xl
+                transition-colors
+                duration-300
+                hover:bg-white
+                hover:text-[#fc310c]
+              "
             >
               Let's Brew
             </motion.a>
@@ -131,9 +133,9 @@ export default function Contact() {
             items-center
             md:items-end
             justify-between
-            gap-2
+            gap-0
             md:gap-6
-            pt-4
+            pt-2
             md:pt-10
             pb-3
           "
@@ -181,6 +183,7 @@ export default function Contact() {
               flex
               items-center
               gap-5
+              mb-1
             "
           >
             {/* Instagram */}
@@ -279,3 +282,4 @@ export default function Contact() {
     </section>
   );
 }
+

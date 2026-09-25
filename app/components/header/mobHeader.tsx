@@ -83,7 +83,7 @@ const MobHeader: React.FunctionComponent<IMobHeaderProps> = (props) => {
           px-8
           rounded-[12px]
           shadow-xl
-          w-[80vw]
+          w-screen
           mt-3
         "
         style={{
@@ -101,7 +101,7 @@ const MobHeader: React.FunctionComponent<IMobHeaderProps> = (props) => {
                   items-center
                   justify-start
                   text-left
-                  font-extralight
+                  font-bold
                   p-3
                   w-full
                   rounded-[8px]
@@ -110,7 +110,6 @@ const MobHeader: React.FunctionComponent<IMobHeaderProps> = (props) => {
                   duration-200
                   hover:bg-[#fc310c]
                   hover:text-white
-                  font-display-custom
                 "
               >
                 <div>{item.name}</div>
@@ -234,7 +233,8 @@ const MobHeader: React.FunctionComponent<IMobHeaderProps> = (props) => {
             menu-list
             absolute
             top-10
-            left-4
+            left-1/2
+            -translate-x-1/2
           "
           style={{
             pointerEvents: isMenuOpen ? "auto" : "none",
