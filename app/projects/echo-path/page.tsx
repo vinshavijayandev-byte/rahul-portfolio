@@ -279,7 +279,7 @@ export default function EchopathPage() {
 
   {/* First Text */}
   <motion.div
-    className="w-full md:mt-10 mt-4"
+    className="w-full md:mt-10 mt-6"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -302,7 +302,7 @@ export default function EchopathPage() {
 
 {/* Second Text */}
 <motion.div
-  className="w-full md:mt-10 mt-4"
+  className="w-full md:mt-10 mt-6"
   variants={reveal}
   initial="hidden"
   whileInView="visible"
@@ -404,7 +404,7 @@ export default function EchopathPage() {
 
   {/* Second Text */}
   <motion.div
-    className="w-full md:mt-10 mt-4"
+    className="w-full md:mt-10 mt-6"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -470,7 +470,7 @@ or navigation challenges while exploring cultural heritage sites.
 
 {/* Testimonial Cards Section */}
 <motion.div
-  className="w-full mt-4 md:mt-10"
+  className="w-full mt-6 md:mt-10"
   variants={reveal}
   initial="hidden"
   whileInView="visible"
@@ -597,7 +597,7 @@ or navigation challenges while exploring cultural heritage sites.
 
     {/* 5 Text */}
   <motion.div
-    className="w-full md:mt-10 mt-4"
+    className="w-full md:mt-10 mt-6"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -618,7 +618,7 @@ or navigation challenges while exploring cultural heritage sites.
 
 {/* 5 Image */}
   <motion.div
-    className="w-full overflow-hidden md:mt-10 mt-4"
+    className="w-full overflow-hidden md:mt-10 mt-6"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -661,7 +661,7 @@ or navigation challenges while exploring cultural heritage sites.
 
 {/* 6 Image */}
   <motion.div
-    className="w-full overflow-hidden md:mt-20 mt-4"
+    className="w-full overflow-hidden md:mt-20 mt-6"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -683,7 +683,7 @@ or navigation challenges while exploring cultural heritage sites.
 
     {/* 6 Text */}
   <motion.div
-    className="w-full md:mt-10 mt-4"
+    className="w-full md:mt-10 mt-6"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -823,7 +823,7 @@ Visitors preferred hands-free exploration, with audio automatically playing as t
 
   {/* 7 Text */}
   <motion.div
-    className="w-full md:mt-10 mt-4"
+    className="w-full md:mt-10 mt-6"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -866,7 +866,7 @@ Audio Content Concept
 
     {/* third Text */}
   <motion.div
-    className="w-full md:mt-10 mt-4"
+    className="w-full md:mt-10 mt-6"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -938,7 +938,7 @@ Narrative Journey Mode offers a continuous, story-driven audio experience for vi
 
   {/* 6 Image */}
   <motion.div
-    className="w-full overflow-hidden md:mt-10 mt-4"
+    className="w-full overflow-hidden md:mt-10 mt-6"
     variants={reveal}
     initial="hidden"
     whileInView="visible"
@@ -981,7 +981,7 @@ Narrative Journey Mode offers a continuous, story-driven audio experience for vi
 
   {/* 6 Image */}
   <motion.div
-    className="w-full overflow-hidden md:mt-10 mt-4"
+    className="w-full overflow-hidden md:mt-10 mt-6"
     variants={reveal}
     initial="hidden"
     whileInView="visible"

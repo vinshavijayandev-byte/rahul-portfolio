@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 import * as React from "react";
 import { motion } from "framer-motion";
 
@@ -376,123 +376,121 @@ export default function MadeForTheFeedPage() {
 
           {/* Image 1 */}
           {firstImage && (
-            <motion.div
-              variants={{
-                hidden: {
-                  opacity: 0,
-                  y: 40,
-                },
-                visible: {
-                  opacity: 1,
-                  y: 0,
-                  transition: {
-                    duration: 0.8,
-                    ease,
-                  },
-                },
-              }}
-              className="group"
-            >
-
-              <motion.div
-                whileHover={{
-                  y: -8,
-                  scale: 1.015,
-                }}
-                transition={{
-                  duration: 0.45,
-                  ease,
-                }}
-                className="
-                  relative
-                  overflow-hidden
-               
-                  cursor-pointer
-                "
-              >
-
-                <motion.img
-                  src={firstImage.src}
-                  alt={firstImage.title}
-                  whileHover={{
-                    scale: 1.06,
-                  }}
-                  transition={{
-                    duration: 0.7,
-                    ease,
-                  }}
-                  className="
-                    block
-                    w-full
-                    aspect-[4/5]
-                    object-cover
-                  "
-                />
-
-              </motion.div>
-
-            </motion.div>
+           <motion.div
+  variants={{
+    hidden: {
+      opacity: 0,
+      y: 40,
+    },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.8,
+        ease,
+      },
+    },
+  }}
+  className="group"
+>
+  <motion.div
+    whileHover={{
+      y: -8,
+      scale: 1.015,
+    }}
+    transition={{
+      duration: 0.45,
+      ease,
+    }}
+    className="
+      relative
+      overflow-hidden
+      cursor-pointer
+    "
+  >
+    <motion.div
+      whileHover={{
+        scale: 1.06,
+      }}
+      transition={{
+        duration: 0.7,
+        ease,
+      }}
+      className="relative w-full aspect-[4/5]"
+    >
+      <Image
+        src={firstImage.src}
+        alt={firstImage.title}
+        fill
+        sizes="(max-width: 768px) 50vw, 50vw"
+        className="
+          block
+          object-cover
+        "
+      />
+    </motion.div>
+  </motion.div>
+</motion.div>
           )}
 
 
           {/* Image 2 */}
           {secondImage && (
-            <motion.div
-              variants={{
-                hidden: {
-                  opacity: 0,
-                  y: 40,
-                },
-                visible: {
-                  opacity: 1,
-                  y: 0,
-                  transition: {
-                    duration: 0.8,
-                    ease,
-                  },
-                },
-              }}
-              className="group"
-            >
-
-              <motion.div
-                whileHover={{
-                  y: -8,
-                  scale: 1.015,
-                }}
-                transition={{
-                  duration: 0.45,
-                  ease,
-                }}
-                className="
-                  relative
-                  overflow-hidden
-                
-                  cursor-pointer
-                "
-              >
-
-                <motion.img
-                  src={secondImage.src}
-                  alt={secondImage.title}
-                  whileHover={{
-                    scale: 1.06,
-                  }}
-                  transition={{
-                    duration: 0.7,
-                    ease,
-                  }}
-                  className="
-                    block
-                    w-full
-                    aspect-[4/5]
-                    object-cover
-                  "
-                />
-
-              </motion.div>
-
-            </motion.div>
+        <motion.div
+  variants={{
+    hidden: {
+      opacity: 0,
+      y: 40,
+    },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.8,
+        ease,
+      },
+    },
+  }}
+  className="group"
+>
+  <motion.div
+    whileHover={{
+      y: -8,
+      scale: 1.015,
+    }}
+    transition={{
+      duration: 0.45,
+      ease,
+    }}
+    className="
+      relative
+      overflow-hidden
+      cursor-pointer
+    "
+  >
+    <motion.div
+      whileHover={{
+        scale: 1.06,
+      }}
+      transition={{
+        duration: 0.7,
+        ease,
+      }}
+      className="relative w-full aspect-[4/5]"
+    >
+      <Image
+        src={secondImage.src}
+        alt={secondImage.title}
+        fill
+        sizes="(max-width: 768px) 50vw, 50vw"
+        className="
+          block
+          object-cover
+        "
+      />
+    </motion.div>
+  </motion.div>
+</motion.div>
           )}
 
         </motion.div>

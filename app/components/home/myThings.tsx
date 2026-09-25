@@ -1,7 +1,9 @@
+
 "use client";
 
 import * as React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { motion } from "framer-motion";
 
 const things = [
@@ -35,7 +37,6 @@ const things = [
     text: "Game Concept Design",
     link: "/projects/theyyam-the-flame-within",
   },
-
 ];
 
 const cardVariants = {
@@ -96,84 +97,86 @@ const MyThingsSec: React.FunctionComponent = () => {
           </p>
         </motion.div>
 
-       {/* Cards */}
-<div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 md:gap-y-12 md:mt-12">
-  {things.map((thing, index) => (
-    <motion.div
-      key={thing.title}
-      variants={cardVariants}
-      initial="hidden"
-      whileInView="visible"
-      viewport={{
-        once: true,
-        amount: 0.2,
-      }}
-      transition={{
-        delay: Math.floor(index / 2) * 0.35,
-      }}
-    >
-      <Link
-        href={thing.link}
-        className="group block cursor-pointer"
-      >
+        {/* Cards */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 md:gap-y-12 md:mt-12">
+          {things.map((thing, index) => (
+            <motion.div
+              key={thing.title}
+              variants={cardVariants}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{
+                once: true,
+                amount: 0.2,
+              }}
+              transition={{
+                delay: Math.floor(index / 2) * 0.35,
+              }}
+            >
+              <Link
+                href={thing.link}
+                className="group block cursor-pointer"
+              >
 
-        {/* Image */}
-        <div className="w-full overflow-hidden -mt-4 md:mt-0">
-          <img
-            src={thing.image}
-            alt={thing.title}
-            className="
-              md:w-full
-              md:h-auto
-              w-[460px]
-              h-[460px]
-              object-contain
-              block
-              transition-transform
-              duration-700
-              ease-out
-              group-hover:scale-[1.02]
-            "
-          />
+                {/* Image */}
+                <div className="w-full overflow-hidden -mt-4 md:mt-0">
+                  <Image
+                    src={thing.image}
+                    alt={thing.title}
+                    width={460}
+                    height={460}
+                    className="
+                      md:w-full
+                      md:h-auto
+                      w-[460px]
+                      h-[460px]
+                      object-contain
+                      block
+                      transition-transform
+                      duration-700
+                      ease-out
+                      group-hover:scale-[1.02]
+                    "
+                  />
+                </div>
+
+                {/* Title */}
+                <h3
+                  className="
+                    md:text-3xl
+                    text-2xl
+                    font-semibold
+                    text-black
+                    md:mt-5
+                    
+                    transition-colors
+                    duration-300
+                    group-hover:text-[#fc310c]
+                  "
+                >
+                  {thing.title}
+                </h3>
+
+                {/* Description */}
+                <p
+                  className="
+                    text-base
+                    md:text-2xl
+                    text-gray-600
+                    md:mt-2
+                    leading-relaxed
+                    transition-colors
+                    duration-300
+                    group-hover:text-[#fc310c]
+                  "
+                >
+                  {thing.text}
+                </p>
+
+              </Link>
+            </motion.div>
+          ))}
         </div>
-
-        {/* Title */}
-        <h3
-          className="
-            md:text-3xl
-            text-2xl
-            font-semibold
-            text-black
-            md:mt-5
-            
-            transition-colors
-            duration-300
-            group-hover:text-[#fc310c]
-          "
-        >
-          {thing.title}
-        </h3>
-
-        {/* Description */}
-        <p
-          className="
-            text-base
-            md:text-2xl
-            text-gray-600
-            md:mt-2
-            leading-relaxed
-            transition-colors
-            duration-300
-            group-hover:text-[#fc310c]
-          "
-        >
-          {thing.text}
-        </p>
-
-      </Link>
-    </motion.div>
-  ))}
-</div>
 
       </div>
     </section>
@@ -181,3 +184,4 @@ const MyThingsSec: React.FunctionComponent = () => {
 };
 
 export default MyThingsSec;
+
