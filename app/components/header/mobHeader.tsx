@@ -1,3 +1,4 @@
+
 "use client";
 
 import * as React from "react";
@@ -89,19 +90,27 @@ const MobHeader: React.FunctionComponent<IMobHeaderProps> = (props) => {
           zIndex: "999999",
         }}
       >
-        <div className="flex flex-col gap-5 font-semibold">
+        <div className="flex flex-col gap-3 font-semibold">
           {MenuItems.map((item, key) => (
             <div key={key} className="w-full">
               <Link
                 href={item.link}
                 className="
-                  border-b
                   menu-item
                   flex
-                  justify-between
                   items-center
-                  p-2
+                  justify-start
+                  text-left
+                  font-extralight
+                  p-3
                   w-full
+                  rounded-[8px]
+                  text-black
+                  transition-colors
+                  duration-200
+                  hover:bg-[#fc310c]
+                  hover:text-white
+                  font-display-custom
                 "
               >
                 <div>{item.name}</div>
@@ -240,3 +249,4 @@ const MobHeader: React.FunctionComponent<IMobHeaderProps> = (props) => {
 };
 
 export default MobHeader;
+

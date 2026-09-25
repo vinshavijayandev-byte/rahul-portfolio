@@ -346,7 +346,7 @@ Track your project
     max-w-4xl
     mx-auto
     overflow-hidden
-    rounded-[2.5rem]
+   
     mt-4
     md:mt-20
   "
@@ -404,7 +404,7 @@ Track your project
     max-w-4xl
     mx-auto
     overflow-hidden
-    rounded-[2.5rem]
+   
     mt-4
     md:mt-20
   "
@@ -463,7 +463,7 @@ Effortless Subject Navigation
     max-w-4xl
     mx-auto
     overflow-hidden
-    rounded-[2.5rem]
+
     mt-4
     md:mt-20
   "
@@ -521,7 +521,7 @@ Effortless Subject Navigation
     max-w-4xl
     mx-auto
     overflow-hidden
-    rounded-[2.5rem]
+   
     mt-4
     md:mt-20
   "
@@ -622,7 +622,7 @@ Tailored Feedback from Teachers
 
 
  <motion.div
-    className="w-full overflow-hidden md:mt-20 mt-10"
+    className="w-full overflow-hidden md:mt-20 mt-10 mb-8"
     variants={reveal}
     initial="hidden"
     whileInView="visible"

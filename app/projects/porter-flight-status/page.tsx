@@ -1094,7 +1094,7 @@ I proposed validating the feature through usability testing by observing whether
 
    {/* nine Text */}
   <motion.div
-    className="w-full md:mt-10 mt-6"
+    className="w-full md:mt-10 mt-6 mb-8"
     variants={reveal}
     initial="hidden"
     whileInView="visible"

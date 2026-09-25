@@ -324,7 +324,7 @@ export default function MadeForTheFeedPage() {
     IMAGE GALLERY
 ====================================================== */}
 
-<section className="w-full max-w-[1290px] mx-auto py-4 md:py-12">
+<section className="w-full max-w-[1290px] mx-auto py-4 md:py-12 mb-8">
 
   {/* Gallery Rows */}
   <div className="flex flex-col gap-2 md:gap-10">

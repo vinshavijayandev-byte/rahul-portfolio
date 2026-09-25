@@ -252,7 +252,7 @@ export default function EchopathPage() {
     />
 
    {/* Project Content */}
-<section className="w-full md:py-10 py-4">
+<section className="w-full md:py-10 py-4 ">
 
   {/* First Image */}
   <motion.div
@@ -487,7 +487,7 @@ or navigation challenges while exploring cultural heritage sites.
 
     {/* Card 1 */}
     <motion.div
-      className="group bg-[#fc310c] p-4 md:p-8 flex flex-col justify-between md:min-h-[450px]"
+      className="group bg-[#fc310c] p-4 md:p-8 flex flex-col justify-between min-h-[300px] md:min-h-[450px]"
       whileHover={{
         y: -8,
         scale: 1.02,
@@ -523,7 +523,7 @@ or navigation challenges while exploring cultural heritage sites.
 
     {/* Card 2 */}
     <motion.div
-      className="group bg-[#fc310c] p-4 md:p-8 flex flex-col justify-between md:min-h-[450px]"
+      className="group bg-[#fc310c] p-4 md:p-8 flex flex-col justify-between min-h-[300px] md:min-h-[450px]"
       whileHover={{
         y: -8,
         scale: 1.02,
@@ -559,7 +559,7 @@ or navigation challenges while exploring cultural heritage sites.
 
     {/* Card 3 */}
     <motion.div
-      className="group bg-[#fc310c] p-4 md:p-8 flex flex-col justify-between md:min-h-[450px]"
+      className="group bg-[#fc310c] p-4 md:p-8 flex flex-col justify-between min-h-[300px] md:min-h-[450px]"
       whileHover={{
         y: -8,
         scale: 1.02,
@@ -981,7 +981,7 @@ Narrative Journey Mode offers a continuous, story-driven audio experience for vi
 
   {/* 6 Image */}
   <motion.div
-    className="w-full overflow-hidden md:mt-10 mt-6"
+    className="w-full overflow-hidden md:mt-10 mt-6 mb-8"
     variants={reveal}
     initial="hidden"
     whileInView="visible"

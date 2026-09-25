@@ -1295,7 +1295,7 @@ Temples      </h4>
 
      {/* eight Text */}
   <motion.div
-    className="w-full md:mt-20 mt-6"
+    className="w-full md:mt-20 mt-6 mb-8"
     variants={reveal}
     initial="hidden"
     whileInView="visible"

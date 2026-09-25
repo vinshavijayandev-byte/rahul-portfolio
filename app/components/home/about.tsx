@@ -115,36 +115,39 @@ const AboutSec: React.FunctionComponent = () => {
           </h2>
         </motion.div>
 
-        {/* Small Image + Text */}
-        <motion.div
-          className="flex items-center gap-6 md:mt-10 mt-4"
-          variants={reveal}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{
-            once: true,
-            amount: 0.3,
-          }}
-          transition={{
-            delay: 0.1,
-          }}
-        >
-          {/* Profile Image */}
-          <div className="w-16 h-16 md:w-24 md:h-24 rounded-full overflow-hidden shrink-0">
-            <img
-              src="/assets/Homepage/RahulDP.png"
-              alt="About Rahul"
-              className="w-full h-full object-cover"
-            />
-          </div>
 
-          {/* Name */}
-          <div>
-            <p className="text-lg md:text-2xl leading-relaxed text-black">
-              Rahul
-            </p>
-          </div>
-        </motion.div>
+{/* Small Image + Text */}
+<motion.div
+  className="flex items-center gap-2 md:mt-10 mt-4"
+  variants={reveal}
+  initial="hidden"
+  whileInView="visible"
+  viewport={{
+    once: true,
+    amount: 0.3,
+  }}
+  transition={{
+    delay: 0.1,
+  }}
+>
+  {/* Profile Image */}
+  <div className="w-16 h-16 md:w-24 md:h-24 rounded-full overflow-hidden shrink-0">
+    <img
+      src="/assets/Homepage/RahulDP.png"
+      alt="About Rahul"
+      className="w-full h-full object-cover"
+    />
+  </div>
+
+  {/* Name */}
+  <div>
+    <p className="text-lg md:text-2xl leading-relaxed text-black">
+      Rahul
+    </p>
+  </div>
+</motion.div>
+
+
 
         {/* Paragraph */}
         <motion.div
@@ -316,7 +319,7 @@ const AboutSec: React.FunctionComponent = () => {
                 <img
                   src={item.src}
                   alt={item.title || "Daily driver"}
-                  className="h-8 w-8 md:h-20 md:w-20 object-cover rounded-xl shadow-md transition-shadow duration-300 hover:shadow-xl hover:scale-110"
+                  className="h-8 w-8 md:h-20 md:w-20 object-cover shadow-md transition-shadow duration-300 hover:shadow-xl hover:scale-110"
                 />
               </motion.div>
             ))}

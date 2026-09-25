@@ -92,7 +92,7 @@ const MyThingsSec: React.FunctionComponent = () => {
             LOOK, I MADE THINGS
           </h2>
 
-          <p className=" md:text-3xl leading-normal md:mt-5 text-black">
+          <p className="md:text-3xl leading-normal md:mt-5 text-black">
             Just me thinking, designing, and winging it
           </p>
         </motion.div>
@@ -147,11 +147,10 @@ const MyThingsSec: React.FunctionComponent = () => {
                     text-2xl
                     font-semibold
                     text-black
+                    -mt-4
                     md:mt-5
-                    
                     transition-colors
                     duration-300
-                    group-hover:text-[#fc310c]
                   "
                 >
                   {thing.title}
@@ -163,11 +162,11 @@ const MyThingsSec: React.FunctionComponent = () => {
                     text-base
                     md:text-2xl
                     text-gray-600
+                    mt-0
                     md:mt-2
                     leading-relaxed
                     transition-colors
                     duration-300
-                    group-hover:text-[#fc310c]
                   "
                 >
                   {thing.text}
