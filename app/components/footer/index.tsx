@@ -51,6 +51,7 @@ export default function Contact() {
                 amount: 0.4,
               }}
               className="
+              mt-12
                 w-full
                 max-w-full
                 mx-auto
