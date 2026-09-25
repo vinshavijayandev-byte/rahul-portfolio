@@ -39,7 +39,7 @@ export default function Contact() {
       >
         {/* Main Content */}
         <div className="flex flex-1 items-center justify-center">
-          <div className="w-full flex flex-col items-center justify-center text-center">
+          <div className="w-screen flex flex-col items-center justify-center text-center">
 
             {/* Heading */}
             <motion.h2
