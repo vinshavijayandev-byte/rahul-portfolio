@@ -50,7 +50,7 @@ const AskAwaySec: React.FunctionComponent = () => {
   };
 
   return (
-    <section id="faq" className="relative overflow-x-hidden py-10 md:py-20 ">
+    <section id="faq" className="relative overflow-x-clip py-10 md:py-20 ">
       
       <div className="max-w-screen-xl xl:mx-auto mx-5">
 

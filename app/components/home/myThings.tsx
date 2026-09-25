@@ -62,7 +62,7 @@ const MyThingsSec: React.FunctionComponent = () => {
   return (
     <section
       id="work"
-      className="relative overflow-x-hidden py-10 md:py-26"
+      className="relative overflow-x-clip py-10 md:py-26"
     >
       <div className="max-w-screen-xl xl:mx-auto mx-5">
 

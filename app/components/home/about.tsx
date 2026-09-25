@@ -97,7 +97,7 @@ const reveal = {
 
 const AboutSec: React.FunctionComponent = () => {
   return (
-    <section className="relative overflow-x-hidden" id="about">
+    <section className="relative overflow-x-clip" id="about">
       {/* Main Content Container */}
       <div className="max-w-screen-xl xl:mx-auto mx-5">
         {/* Heading */}
