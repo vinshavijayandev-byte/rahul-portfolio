@@ -28,7 +28,7 @@ const galleryImages = [
     title: "Audio AR Interface",
   },
   {
-   src: "/assets/Madeforthefeed/Burger-King-03.webp",
+    src: "/assets/Madeforthefeed/Burger-King-03.webp",
     title: "Cultural Discovery",
   },
   {
@@ -36,11 +36,11 @@ const galleryImages = [
     title: "Interactive Map",
   },
   {
-     src: "/assets/Madeforthefeed/Burger-King-05.webp",
+    src: "/assets/Madeforthefeed/Burger-King-05.webp",
     title: "Heritage Stories",
   },
   {
-   src: "/assets/Madeforthefeed/Burger-King-06.webp",
+    src: "/assets/Madeforthefeed/Burger-King-06.webp",
     title: "Immersive Audio",
   },
   {
@@ -48,79 +48,79 @@ const galleryImages = [
     title: "Exploration Flow",
   },
   {
-   src: "/assets/Madeforthefeed/Oreo-02.webp",
+    src: "/assets/Madeforthefeed/Oreo-02.webp",
     title: "Place & Memory",
   },
   {
-   src: "/assets/Madeforthefeed/Oreo-01.webp",
+    src: "/assets/Madeforthefeed/Oreo-01.webp",
     title: "User Journey",
   },
   {
-  src: "/assets/Madeforthefeed/Whiskey-01.webp",
+    src: "/assets/Madeforthefeed/Whiskey-01.webp",
     title: "Final Experience",
   },
   {
-  src: "/assets/Madeforthefeed/Nescafe-02.webp",
+    src: "/assets/Madeforthefeed/Nescafe-02.webp",
     title: "Final Experience",
   },
   {
-  src: "/assets/Madeforthefeed/Nescafe-01.webp",
+    src: "/assets/Madeforthefeed/Nescafe-01.webp",
     title: "Final Experience",
   },
-   {
-  src: "/assets/Madeforthefeed/Mirinda-01.webp",
+  {
+    src: "/assets/Madeforthefeed/Mirinda-01.webp",
     title: "Final Experience",
   },
-     {
-  src: "/assets/Madeforthefeed/Mirinda-03.webp",
+  {
+    src: "/assets/Madeforthefeed/Mirinda-03.webp",
     title: "Final Experience",
   },
-     {
-  src: "/assets/Madeforthefeed/Mirinda-02.webp",
+  {
+    src: "/assets/Madeforthefeed/Mirinda-02.webp",
     title: "Final Experience",
   },
-   {
-  src: "/assets/Madeforthefeed/Kitkat.webp",
+  {
+    src: "/assets/Madeforthefeed/Kitkat.webp",
     title: "Final Experience",
   },
-     {
-  src: "/assets/Madeforthefeed/Adidas01.webp",
+  {
+    src: "/assets/Madeforthefeed/Adidas01.webp",
     title: "Final Experience",
   },
-     {
-  src: "/assets/Madeforthefeed/Adidas02.webp",
+  {
+    src: "/assets/Madeforthefeed/Adidas02.webp",
     title: "Final Experience",
   },
-       {
-  src: "/assets/Madeforthefeed/CAR-01.webp",
+  {
+    src: "/assets/Madeforthefeed/CAR-01.webp",
     title: "Final Experience",
   },
-       {
-  src: "/assets/Madeforthefeed/CAR-02.webp",
+  {
+    src: "/assets/Madeforthefeed/CAR-02.webp",
     title: "Final Experience",
   },
-       {
-  src: "/assets/Madeforthefeed/CAR-03.webp",
+  {
+    src: "/assets/Madeforthefeed/CAR-03.webp",
     title: "Final Experience",
   },
-       {
-  src: "/assets/Madeforthefeed/CAR-04.webp",
+  {
+    src: "/assets/Madeforthefeed/CAR-04.webp",
     title: "Final Experience",
   },
-    {
-  src: "/assets/Madeforthefeed/Bike-01.webp",
+  {
+    src: "/assets/Madeforthefeed/Bike-01.webp",
     title: "Final Experience",
   },
-    {
-  src: "/assets/Madeforthefeed/Bike-02.webp",
+  {
+    src: "/assets/Madeforthefeed/Bike-02.webp",
     title: "Final Experience",
   },
-    {
-  src: "/assets/Madeforthefeed/Bike-03.webp",
+  {
+    src: "/assets/Madeforthefeed/Bike-03.webp",
     title: "Final Experience",
   },
-    {
-  src: "/assets/Madeforthefeed/f1.webp",
+  {
+    src: "/assets/Madeforthefeed/f1.webp",
     title: "Final Experience",
   },
 ];
@@ -129,9 +129,7 @@ export default function MadeForTheFeedPage() {
   return (
     <main className="min-h-screen bg-white text-black">
       <div className="max-w-screen-xl xl:mx-auto mx-5">
-
         <section className="w-full max-w-[1290px] mx-auto">
-
           {/* Intro */}
           <div className="w-full pt-32 pb-10 md:pt-56 md:pb-12">
             <motion.div
@@ -142,7 +140,6 @@ export default function MadeForTheFeedPage() {
                 amount: 0.4,
               }}
             >
-
               {/* Heading */}
               <motion.h1
                 variants={{
@@ -197,17 +194,21 @@ export default function MadeForTheFeedPage() {
                   max-w-full
                 "
               >
-                I create scroll-stopping social media content that blends bold visual design, AI-generated imagery, and creative storytelling. Each concept is crafted to capture attention, communicate ideas clearly, and bring brands to life through engaging visuals. From campaign creatives to promotional content, I combine design, creativity, and technology to create work that stands out in the feed.
+                I create scroll-stopping social media content that blends bold
+                visual design, AI-generated imagery, and creative storytelling.
+                Each concept is crafted to capture attention, communicate ideas
+                clearly, and bring brands to life through engaging visuals. From
+                campaign creatives to promotional content, I combine design,
+                creativity, and technology to create work that stands out in the
+                feed.
               </motion.p>
-
             </motion.div>
           </div>
 
-
-{/* Project Information */}
-<div className="w-full pb-4 md:pb-10">
-  <div
-    className="
+          {/* Project Information */}
+          <div className="w-full pb-4 md:pb-10">
+            <div
+              className="
       w-full
       max-w-[900px]
       grid
@@ -216,26 +217,25 @@ export default function MadeForTheFeedPage() {
       sm:gap-x-6
       md:gap-x-12
     "
-  >
-
-    {/* Role */}
-    <motion.div
-      className="min-w-0"
-      variants={reveal}
-      initial="hidden"
-      whileInView="visible"
-      transition={{
-        duration: 0.7,
-        delay: 0.1,
-        ease,
-      }}
-      viewport={{
-        once: true,
-        amount: 0.3,
-      }}
-    >
-      <p
-        className="
+            >
+              {/* Role */}
+              <motion.div
+                className="min-w-0"
+                variants={reveal}
+                initial="hidden"
+                whileInView="visible"
+                transition={{
+                  duration: 0.7,
+                  delay: 0.1,
+                  ease,
+                }}
+                viewport={{
+                  once: true,
+                  amount: 0.3,
+                }}
+              >
+                <p
+                  className="
           text-sm
           sm:text-base
           md:text-2xl
@@ -245,34 +245,33 @@ export default function MadeForTheFeedPage() {
           mb-1
           md:mb-2
         "
-      >
-        Role :
-      </p>
+                >
+                  Role :
+                </p>
 
-      <p className="text-sm sm:text-base md:text-2xl break-words">
-        AI Visual Designer
-      </p>
-    </motion.div>
+                <p className="text-sm sm:text-base md:text-2xl break-words">
+                  AI Visual Designer
+                </p>
+              </motion.div>
 
-
-    {/* Tools */}
-    <motion.div
-      className="min-w-0"
-      variants={reveal}
-      initial="hidden"
-      whileInView="visible"
-      transition={{
-        duration: 0.7,
-        delay: 0.2,
-        ease,
-      }}
-      viewport={{
-        once: true,
-        amount: 0.3,
-      }}
-    >
-      <p
-        className="
+              {/* Tools */}
+              <motion.div
+                className="min-w-0"
+                variants={reveal}
+                initial="hidden"
+                whileInView="visible"
+                transition={{
+                  duration: 0.7,
+                  delay: 0.2,
+                  ease,
+                }}
+                viewport={{
+                  once: true,
+                  amount: 0.3,
+                }}
+              >
+                <p
+                  className="
           text-sm
           sm:text-base
           md:text-2xl
@@ -282,20 +281,18 @@ export default function MadeForTheFeedPage() {
           mb-1
           md:mb-2
         "
-      >
-        Tools :
-      </p>
+                >
+                  Tools :
+                </p>
 
-      <p className="text-sm sm:text-base md:text-2xl break-words">
-        Adobe Illustrator, Adobe Photoshop, AI (Chat GPT, Adobe FireFly)
-      </p>
-    </motion.div>
-
-  </div>
-</div>
-
+                <p className="text-sm sm:text-base md:text-2xl break-words">
+                  Adobe Illustrator, Adobe Photoshop, AI (Chat GPT, Adobe
+                  FireFly)
+                </p>
+              </motion.div>
+            </div>
+          </div>
         </section>
-
 
         {/* Divider */}
         <motion.div
@@ -319,58 +316,53 @@ export default function MadeForTheFeedPage() {
           }}
         />
 
-
-    {/* =====================================================
+        {/* =====================================================
     IMAGE GALLERY
 ====================================================== */}
 
-
-{/* =====================================================
+        {/* =====================================================
     IMAGE GALLERY
 ====================================================== */}
 
-<section className="w-full max-w-[1290px] mx-auto py-4 md:py-12 mb-8">
+        <section className="w-full max-w-[1290px] mx-auto py-4 md:py-12 mb-8">
+          {/* Gallery Rows */}
+          <div className="flex flex-col gap-3 md:gap-10">
+            {Array.from({
+              length: Math.ceil(galleryImages.length / 2),
+            }).map((_, rowIndex) => {
+              const firstIndex = rowIndex * 2;
+              const secondIndex = firstIndex + 1;
 
-  {/* Gallery Rows */}
-  <div className="flex flex-col gap-3 md:gap-10">
+              const firstImage = galleryImages[firstIndex];
+              const secondImage = galleryImages[secondIndex];
 
-    {Array.from({
-      length: Math.ceil(galleryImages.length / 2),
-    }).map((_, rowIndex) => {
-
-      const firstIndex = rowIndex * 2;
-      const secondIndex = firstIndex + 1;
-
-      const firstImage = galleryImages[firstIndex];
-      const secondImage = galleryImages[secondIndex];
-
-      return (
-        <motion.div
-          key={rowIndex}
-          variants={{
-            hidden: {
-              opacity: 0,
-              y: 70,
-              filter: "blur(12px)",
-            },
-            visible: {
-              opacity: 1,
-              y: 0,
-              filter: "blur(0px)",
-              transition: {
-                duration: 0.9,
-                ease,
-                staggerChildren: 0.15,
-              },
-            },
-          }}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{
-            once: true,
-            amount: 0.15,
-          }}
-          className="
+              return (
+                <motion.div
+                  key={rowIndex}
+                  variants={{
+                    hidden: {
+                      opacity: 0,
+                      y: 70,
+                      filter: "blur(12px)",
+                    },
+                    visible: {
+                      opacity: 1,
+                      y: 0,
+                      filter: "blur(0px)",
+                      transition: {
+                        duration: 0.9,
+                        ease,
+                        staggerChildren: 0.15,
+                      },
+                    },
+                  }}
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{
+                    once: true,
+                    amount: 0.15,
+                  }}
+                  className="
             grid
             grid-cols-2
             gap-3
@@ -378,166 +370,70 @@ export default function MadeForTheFeedPage() {
             w-full
             min-w-0
           "
-        >
-
-          {/* Image 1 */}
-          {firstImage && (
-            <motion.div
-              variants={{
-                hidden: {
-                  opacity: 0,
-                  y: 40,
-                },
-                visible: {
-                  opacity: 1,
-                  y: 0,
-                  transition: {
-                    duration: 0.8,
-                    ease,
-                  },
-                },
-              }}
-              className="
-                group
-                min-w-0
-                w-full
-              "
-            >
-              <motion.div
-                whileHover={{
-                  y: -8,
-                  scale: 1.015,
-                }}
-                transition={{
-                  duration: 0.45,
-                  ease,
-                }}
-                className="
-                  relative
-                  w-full
-                  overflow-hidden
-                  cursor-pointer
-                  min-w-0
-                  rounded-none
-                "
-              >
-                <motion.div
-                  whileHover={{
-                    scale: 1.06,
-                  }}
-                  transition={{
-                    duration: 0.7,
-                    ease,
-                  }}
-                  className="
-                    relative
-                    w-full
-                    aspect-[4/5]
-                    min-h-0
-                    overflow-hidden
-                  "
                 >
-                  <Image
-                    src={firstImage.src}
-                    alt={firstImage.title}
-                    fill
-                    sizes="(max-width: 768px) 50vw, 645px"
-                    className="
-                      block
-                      w-full
-                      h-full
-                      object-cover
-                    "
-                  />
+                  {/* Image 1 */}{" "}
+                  {firstImage && (
+                    <motion.div
+                      variants={{
+                        hidden: { opacity: 0, y: 40 },
+                        visible: {
+                          opacity: 1,
+                          y: 0,
+                          transition: { duration: 0.8, ease },
+                        },
+                      }}
+                      className="group min-w-0 w-full"
+                    >
+                      {" "}
+                      <div className=" relative w-full overflow-hidden cursor-pointer min-w-0 rounded-none md:transition-transform md:duration-500 md:ease-out md:group-hover:-translate-y-2 md:group-hover:scale-[1.015] ">
+                        {" "}
+                        <div className=" relative w-full aspect-[4/5] min-h-0 overflow-hidden md:transition-transform md:duration-700 md:ease-out md:group-hover:scale-[1.06] ">
+                          {" "}
+                          <Image
+                            src={firstImage.src}
+                            alt={firstImage.title}
+                            fill
+                            sizes="(max-width: 768px) 50vw, 645px"
+                            className=" block w-full h-full object-cover "
+                          />{" "}
+                        </div>{" "}
+                      </div>{" "}
+                    </motion.div>
+                  )}
+                  {/* Image 2 */}{" "}
+                  {secondImage && (
+                    <motion.div
+                      variants={{
+                        hidden: { opacity: 0, y: 40 },
+                        visible: {
+                          opacity: 1,
+                          y: 0,
+                          transition: { duration: 0.8, ease },
+                        },
+                      }}
+                      className="group min-w-0 w-full"
+                    >
+                      {" "}
+                      <div className=" relative w-full overflow-hidden cursor-pointer min-w-0 rounded-none md:transition-transform md:duration-500 md:ease-out md:group-hover:-translate-y-2 md:group-hover:scale-[1.015] ">
+                        {" "}
+                        <div className=" relative w-full aspect-[4/5] min-h-0 overflow-hidden md:transition-transform md:duration-700 md:ease-out md:group-hover:scale-[1.06] ">
+                          {" "}
+                          <Image
+                            src={secondImage.src}
+                            alt={secondImage.title}
+                            fill
+                            sizes="(max-width: 768px) 50vw, 645px"
+                            className=" block w-full h-full object-cover "
+                          />{" "}
+                        </div>{" "}
+                      </div>{" "}
+                    </motion.div>
+                  )}
                 </motion.div>
-              </motion.div>
-            </motion.div>
-          )}
-
-          {/* Image 2 */}
-          {secondImage && (
-            <motion.div
-              variants={{
-                hidden: {
-                  opacity: 0,
-                  y: 40,
-                },
-                visible: {
-                  opacity: 1,
-                  y: 0,
-                  transition: {
-                    duration: 0.8,
-                    ease,
-                  },
-                },
-              }}
-              className="
-                group
-                min-w-0
-                w-full
-              "
-            >
-              <motion.div
-                whileHover={{
-                  y: -8,
-                  scale: 1.015,
-                }}
-                transition={{
-                  duration: 0.45,
-                  ease,
-                }}
-                className="
-                  relative
-                  w-full
-                  overflow-hidden
-                  cursor-pointer
-                  min-w-0
-                  rounded-none
-                "
-              >
-                <motion.div
-                  whileHover={{
-                    scale: 1.06,
-                  }}
-                  transition={{
-                    duration: 0.7,
-                    ease,
-                  }}
-                  className="
-                    relative
-                    w-full
-                    aspect-[4/5]
-                    min-h-0
-                    overflow-hidden
-                  "
-                >
-                  <Image
-                    src={secondImage.src}
-                    alt={secondImage.title}
-                    fill
-                    sizes="(max-width: 768px) 50vw, 645px"
-                    className="
-                      block
-                      w-full
-                      h-full
-                      object-cover
-                    "
-                  />
-                </motion.div>
-              </motion.div>
-            </motion.div>
-          )}
-
-        </motion.div>
-      );
-    })}
-
-  </div>
-
-</section>
-
-
-
+              );
+            })}
+          </div>
+        </section>
       </div>
     </main>
   );
