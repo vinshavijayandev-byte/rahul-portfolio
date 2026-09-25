@@ -190,7 +190,7 @@ export default function MadeForTheFeedPage() {
                   md:mt-8
                   text-xl
                   md:text-3xl
-                  leading-[1.15]
+                  leading-relaxed
                   max-w-full
                 "
               >

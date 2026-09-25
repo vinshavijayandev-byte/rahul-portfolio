@@ -88,7 +88,7 @@ md:text-8xl
           md:mt-8
           text-xl
           md:text-3xl
-          leading-[1.15]
+          leading-relaxed
           max-w-[1100px]
         "
       >
