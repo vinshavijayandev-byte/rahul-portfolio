@@ -1058,7 +1058,9 @@ Temples      </h4>
     </p>
   </motion.div>
 
-  {/* Two Column Content */}
+
+
+{/* Two Column Content */}
 <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-10 md:mt-20 mt-4">
 
   {/* Column 1 */}
@@ -1078,18 +1080,18 @@ Temples      </h4>
     className="group"
   >
     {/* Image */}
-    <motion.div
-      className="w-full overflow-hidden "
-      whileHover={{
-        y: -6,
-        scale: 1.01,
-      }}
-      transition={{
-        duration: 0.45,
-        ease,
-      }}
+    <div
+      className="
+        w-full
+        overflow-hidden
+        md:transition-transform
+        md:duration-500
+        md:ease-out
+        md:group-hover:-translate-y-1.5
+        md:group-hover:scale-[1.01]
+      "
     >
-      <motion.img
+      <img
         src="/assets/Theyyam/Theyyam03.webp"
         alt="Exploring through place"
         className="
@@ -1097,16 +1099,13 @@ Temples      </h4>
           h-auto
           object-contain
           block
+          md:transition-transform
+          md:duration-700
+          md:ease-out
+          md:group-hover:scale-[1.02]
         "
-        whileHover={{
-          scale: 1.02,
-        }}
-        transition={{
-          duration: 0.7,
-          ease,
-        }}
       />
-    </motion.div>
+    </div>
   </motion.div>
 
 
@@ -1127,18 +1126,18 @@ Temples      </h4>
     className="group"
   >
     {/* Image */}
-    <motion.div
-      className="w-full overflow-hidden "
-      whileHover={{
-        y: -6,
-        scale: 1.01,
-      }}
-      transition={{
-        duration: 0.45,
-        ease,
-      }}
+    <div
+      className="
+        w-full
+        overflow-hidden
+        md:transition-transform
+        md:duration-500
+        md:ease-out
+        md:group-hover:-translate-y-1.5
+        md:group-hover:scale-[1.01]
+      "
     >
-      <motion.img
+      <img
         src="/assets/Theyyam/Theyyam04.webp"
         alt="Stories in the environment"
         className="
@@ -1146,16 +1145,13 @@ Temples      </h4>
           h-auto
           object-contain
           block
+          md:transition-transform
+          md:duration-700
+          md:ease-out
+          md:group-hover:scale-[1.02]
         "
-        whileHover={{
-          scale: 1.02,
-        }}
-        transition={{
-          duration: 0.7,
-          ease,
-        }}
       />
-    </motion.div>
+    </div>
   </motion.div>
 
 
@@ -1176,18 +1172,18 @@ Temples      </h4>
     className="group"
   >
     {/* Image */}
-    <motion.div
-      className="w-full overflow-hidden "
-      whileHover={{
-        y: -6,
-        scale: 1.01,
-      }}
-      transition={{
-        duration: 0.45,
-        ease,
-      }}
+    <div
+      className="
+        w-full
+        overflow-hidden
+        md:transition-transform
+        md:duration-500
+        md:ease-out
+        md:group-hover:-translate-y-1.5
+        md:group-hover:scale-[1.01]
+      "
     >
-      <motion.img
+      <img
         src="/assets/Theyyam/Theyyam05.webp"
         alt="Exploring through place"
         className="
@@ -1195,16 +1191,13 @@ Temples      </h4>
           h-auto
           object-contain
           block
+          md:transition-transform
+          md:duration-700
+          md:ease-out
+          md:group-hover:scale-[1.02]
         "
-        whileHover={{
-          scale: 1.02,
-        }}
-        transition={{
-          duration: 0.7,
-          ease,
-        }}
       />
-    </motion.div>
+    </div>
   </motion.div>
 
 
@@ -1225,18 +1218,18 @@ Temples      </h4>
     className="group"
   >
     {/* Image */}
-    <motion.div
-      className="w-full overflow-hidden "
-      whileHover={{
-        y: -6,
-        scale: 1.01,
-      }}
-      transition={{
-        duration: 0.45,
-        ease,
-      }}
+    <div
+      className="
+        w-full
+        overflow-hidden
+        md:transition-transform
+        md:duration-500
+        md:ease-out
+        md:group-hover:-translate-y-1.5
+        md:group-hover:scale-[1.01]
+      "
     >
-      <motion.img
+      <img
         src="/assets/Theyyam/Theyyam06.webp"
         alt="Stories in the environment"
         className="
@@ -1244,53 +1237,51 @@ Temples      </h4>
           h-auto
           object-contain
           block
+          md:transition-transform
+          md:duration-700
+          md:ease-out
+          md:group-hover:scale-[1.02]
         "
-        whileHover={{
-          scale: 1.02,
-        }}
-        transition={{
-          duration: 0.7,
-          ease,
-        }}
       />
-    </motion.div>
+    </div>
   </motion.div>
 
 </div>
 
- {/* Full Width Image */}
-  <motion.div
-    className="w-full mt-4 md:mt-12 overflow-hidden "
-    variants={reveal}
-    initial="hidden"
-    whileInView="visible"
-    transition={{
-      duration: 0.9,
-      ease,
-    }}
-    viewport={{
-      once: true,
-      amount: 0.2,
-    }}
-  >
-    <motion.img
-     src="/assets/Theyyam/Theyyam07.webp"
-      alt="World and Environment"
-      className="
-        w-full
-        aspect-[16/8]
-        object-cover
-        block
-      "
-      whileHover={{
-        scale: 1.04,
-      }}
-      transition={{
-        duration: 0.8,
-        ease,
-      }}
-    />
-  </motion.div>
+
+{/* Full Width Image */}
+<motion.div
+  className="w-full mt-4 md:mt-12 overflow-hidden group"
+  variants={reveal}
+  initial="hidden"
+  whileInView="visible"
+  transition={{
+    duration: 0.9,
+    ease,
+  }}
+  viewport={{
+    once: true,
+    amount: 0.2,
+  }}
+>
+  <img
+    src="/assets/Theyyam/Theyyam07.webp"
+    alt="World and Environment"
+    className="
+      w-full
+      aspect-[16/8]
+      object-cover
+      block
+      md:transition-transform
+      md:duration-700
+      md:ease-out
+      md:group-hover:scale-[1.04]
+    "
+  />
+</motion.div>
+
+
+
 
 
      {/* eight Text */}
