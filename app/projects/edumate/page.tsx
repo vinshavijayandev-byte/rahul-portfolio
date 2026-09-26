@@ -21,7 +21,7 @@ filter: "blur(0px)",
 export default function EdumatePage() {
   return (
     <main className="min-h-screen bg-white text-black">
-      <div className="max-w-screen-xl xl:mx-auto mx-5">
+      <div className="max-w-[1150px] xl:mx-auto mx-5">
 
 <section className="w-full max-w-[1290px] mx-auto">
 

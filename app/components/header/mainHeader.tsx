@@ -11,7 +11,7 @@ const MainHeader: React.FunctionComponent<IMainHeaderProps> = (props) => {
   const currentPage: string = props.currentMenu;
 
   return (
-    <section className="relative max-w-screen-xl xl:mx-auto mx-5">
+    <section className="relative max-w-[1150px] xl:mx-auto mx-5">
       <div className="absolute top-5 left-0 w-full flex items-center justify-between rounded-full bg-white/40 backdrop-blur-md border border-white/20 px-4 py-2">
 
         {/* Logo / Profile */}

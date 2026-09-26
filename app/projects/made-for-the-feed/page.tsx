@@ -128,7 +128,7 @@ const galleryImages = [
 export default function MadeForTheFeedPage() {
   return (
     <main className="min-h-screen bg-white text-black">
-      <div className="max-w-screen-xl xl:mx-auto mx-5">
+      <div className="max-w-[1150px] xl:mx-auto mx-5">
         <section className="w-full max-w-[1290px] mx-auto">
           {/* Intro */}
           <div className="w-full pt-32 pb-10 md:pt-56 md:pb-12">

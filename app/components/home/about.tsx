@@ -99,7 +99,7 @@ const AboutSec: React.FunctionComponent = () => {
   return (
     <section className="relative overflow-x-clip" id="about">
       {/* Main Content Container */}
-      <div className="max-w-screen-xl xl:mx-auto mx-5">
+      <div className="max-w-[1150px] xl:mx-auto mx-5">
         {/* Heading */}
         <motion.div
           variants={reveal}
