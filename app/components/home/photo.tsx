@@ -7,21 +7,22 @@ import { motion } from "framer-motion";
 const ImageSection: React.FunctionComponent = () => {
   return (
     <section
-      className="
-        relative
-        w-full
-        overflow-hidden
-        bg-[#ff3218]
+  className="
+    relative
+    w-full
+    overflow-hidden
+    bg-[#ff3218]
 
-        aspect-[1440/900]
+    aspect-[390/560]
 
-        /* Tablet */
-        md:aspect-[1024/700]
+    /* Tablet */
+    md:aspect-[1024/700]
 
-        /* Mobile */
-        max-md:aspect-[390/560]
-      "
-    >
+    /* Desktop */
+    lg:aspect-[1440/850]
+  "
+>
+
       {/* =========================
           BACKGROUND IMAGE
       ========================== */}

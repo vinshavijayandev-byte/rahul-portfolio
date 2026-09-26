@@ -98,7 +98,7 @@ const MyThingsSec: React.FunctionComponent = () => {
         </motion.div>
 
         {/* Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 md:gap-y-12 md:mt-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 md:gap-y-12 md:mt-12">
           {things.map((thing, index) => (
             <motion.div
               key={thing.title}
@@ -126,7 +126,7 @@ const MyThingsSec: React.FunctionComponent = () => {
                     width={460}
                     height={460}
                     className="
-                      md:w-full
+                      md:w-[94%]
                       md:h-auto
                       w-[460px]
                       h-[460px]
