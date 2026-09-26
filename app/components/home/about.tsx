@@ -68,12 +68,12 @@ const experiences = [
   {
     company: "Senior UI & Graphic Designer at Rookie Ninja Distribution LLC",
     location: "Dubai,UAE",
-    year: "2021 — 2026(Present)",
+    year: "2022 — 2026",
   },
   {
     company: "UI & Graphic Designer at ANN Travels & Media",
     location: "Dubai,UAE",
-    year: "2021 — 2026(Present)",
+    year: "2022 — 2026",
   },
 ];
 

@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const headingLines = ["FROM FRICTION TO FLOW,", "FLOW TO GROWTH"];
 
 const paragraphWords = [
-  "5",
+  "6",
   "Years",
   "of",
   "crafting",
@@ -43,7 +43,7 @@ const LandingSection: React.FunctionComponent = () => {
 
   return (
     <section className="text-white">
-      <div className="max-w-screen-xl xl:mx-auto mx-5 grid place-items-center min-h-[70vh] md:min-h-[97vh]">
+      <div className="max-w-screen-xl xl:mx-auto mx-5 grid place-items-center min-h-[70vh] md:min-h-[100vh]">
         <div className="w-full text-center flex flex-col items-center">
           <div className="relative text-5xl md:text-6xl overflow-hidden">
            <motion.h2
