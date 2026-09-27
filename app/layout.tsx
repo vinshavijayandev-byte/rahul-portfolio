@@ -11,8 +11,8 @@ const barlowCondensed = Barlow_Condensed({
 });
 
 export const metadata = {
-  title: "Home | Rahul",
-  description: "Hey, Rahul here! Welcome to my website.",
+  title: "Rahul Krishnan | UI/UX & Visual Designer in Dubai",
+  description: "Dubai-based UI/UX & Visual Designer with 6 years of experience crafting intuitive digital products, design systems, responsive interfaces and impactful visual experiences.",
 };
 
 export default function RootLayout({
@@ -23,9 +23,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={barlowCondensed.variable}>
       <head>
-        <link rel="icon" href="/favicon.png" sizes="any" />
-        <meta property="og:image" content="/meta.png" />
-        <meta property="twitter:image" content="/meta.png" />
+        <link rel="icon" href="/meta.jpg" sizes="any" />
+        <meta property="og:image" content="/meta.jpg" />
+        <meta property="twitter:image" content="/meta.jpg" />
       </head>
 
       <body>
