@@ -164,7 +164,7 @@ const AboutSec: React.FunctionComponent = () => {
           }}
         >
           <p className="w-full md:text-2xl text-lg leading-relaxed text-black">
-            Dubai-based UI/UX and Graphic Designer with 5+ years of experience
+            Dubai-based UI/UX and Graphic Designer with 6+ years of experience
             in end-to-end UI/UX design, graphic design, and digital product
             design. Skilled in user research, wireframing, prototyping,
             usability testing, visual design, and design systems. Experienced in
