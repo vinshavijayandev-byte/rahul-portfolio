@@ -19,7 +19,7 @@ const MenuItems: MenuI[] = [
   },
   {
     name: "Resume",
-    link: "https://drive.google.com/file/d/1mLe_eKFSuhpVfxv1XUCZ9ugb7QBNoOxj/view",
+    link: "https://drive.google.com/file/d/1SOiJfeLuBXdxPY5CnH_XGzACVsN5GjKZ/view",
   },
 ];
 
