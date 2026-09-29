@@ -73,7 +73,7 @@ const experiences = [
   {
     company: "UI & Graphic Designer at ANN Travels & Media",
     location: "Dubai,UAE",
-    year: "2022 — 2026",
+    year: "2021 — 2022",
   },
 ];
 
