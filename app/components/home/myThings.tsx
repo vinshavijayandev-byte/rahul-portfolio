@@ -64,7 +64,7 @@ const MyThingsSec: React.FunctionComponent = () => {
       id="work"
       className="relative overflow-x-clip py-10 md:py-26"
     >
-      <div className="max-w-[1150px] xl:mx-auto mx-5">
+      <div className="max-w-[1150px] 2xl:max-w-[1450px] xl:mx-auto mx-5">
 
         {/* Heading */}
         <motion.div

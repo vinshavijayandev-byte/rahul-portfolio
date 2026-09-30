@@ -52,7 +52,7 @@ const AskAwaySec: React.FunctionComponent = () => {
   return (
     <section id="faq" className="relative overflow-x-clip py-10 md:py-20 mb-6">
       
-      <div className="max-w-[1150px] xl:mx-auto mx-5">
+      <div className="max-w-[1150px] 2xl:max-w-[1450px] xl:mx-auto mx-5 2xl:pr-[40px] xl:pr-[35px]">
 
         {/* Heading */}
         <motion.div

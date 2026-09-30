@@ -20,8 +20,19 @@ filter: "blur(0px)",
 
 export default function EdumatePage() {
   return (
-    <main className="min-h-screen bg-white text-black">
-      <div className="max-w-[1150px] xl:mx-auto mx-5">
+       <main className="min-h-screen bg-white text-black">
+<div
+  className="
+    max-w-[1150px]
+    2xl:max-w-[1450px]
+    xl:mx-auto
+    mx-5
+    xl:w-[calc(100%-35px)]
+    2xl:w-[calc(100%-40px)]
+    2xl:pr-[40px]
+    xl:pr-[35px]
+  "
+>
 
 <section className="w-full max-w-[1290px] mx-auto">
 
