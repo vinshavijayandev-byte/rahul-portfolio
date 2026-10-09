@@ -53,13 +53,7 @@ const AskAwaySec: React.FunctionComponent = () => {
 
   return (
     <section id="faq" className="relative overflow-x-clip py-10 md:py-20 mb-6">
-      <div
-        className="
-    mx-auto
-    w-[78.20%]
-    2xl:w-[79.50%]
-  "
-      >
+ <div className="mx-auto w-[90%] md:w-[78.20%] 2xl:w-[79.50%]">
         {/* Heading */}
         <motion.div
           className="w-full"

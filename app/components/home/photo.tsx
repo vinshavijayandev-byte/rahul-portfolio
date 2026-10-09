@@ -129,7 +129,7 @@ md:top-[48%]
 /* Mobile */
 max-md:w-[44%]
 max-md:right-[5%]
-max-md:top-[56%]
+max-md:top-[65%]
   "
 />
 

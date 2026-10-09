@@ -64,8 +64,8 @@ const MyThingsSec: React.FunctionComponent = () => {
       id="work"
       className="relative w-full overflow-x-clip py-10 md:py-26"
     >
-      {/* Responsive Container - aligned with header */}
-      <div className="mx-auto w-[78.20%] 2xl:w-[79.50%]">
+      {/* Responsive Container - unchanged */}
+      <div className="mx-auto w-[90%] md:w-[78.20%] 2xl:w-[79.50%]">
         {/* Heading */}
         <motion.div
           className="w-full text-center"
@@ -119,7 +119,7 @@ const MyThingsSec: React.FunctionComponent = () => {
                 className="group block w-full cursor-pointer"
               >
                 {/* Image */}
-                <div className="w-full overflow-hidden -mt-4 md:mt-0">
+                <div className="w-full overflow-hidden mt-4 md:mt-0">
                   <Image
                     src={thing.image}
                     alt={thing.title}
@@ -142,11 +142,11 @@ const MyThingsSec: React.FunctionComponent = () => {
                 {/* Title */}
                 <h3
                   className="
-                    md:text-3xl
                     text-2xl
+                    md:text-3xl
                     font-semibold
                     text-black
-                    -mt-4
+                    mt-3
                     md:mt-5
                     transition-colors
                     duration-300
@@ -161,7 +161,7 @@ const MyThingsSec: React.FunctionComponent = () => {
                     text-base
                     md:text-2xl
                     text-gray-600
-                    mt-0
+                    mt-1
                     md:mt-2
                     leading-relaxed
                     transition-colors

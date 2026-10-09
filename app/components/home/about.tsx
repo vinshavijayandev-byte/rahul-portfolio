@@ -99,13 +99,7 @@ const AboutSec: React.FunctionComponent = () => {
   return (
     <section className="relative overflow-x-clip" id="about">
       {/* Main Content Container */}
-     <div
-  className="
-    mx-auto
-    w-[78.20%]
-    2xl:w-[79.50%]
-  "
->
+<div className="mx-auto w-[90%] md:w-[78.20%] 2xl:w-[79.50%]">
         {/* Heading */}
         <motion.div
           variants={reveal}

@@ -128,13 +128,7 @@ const galleryImages = [
 export default function MadeForTheFeedPage() {
   return (
     <main className="min-h-screen bg-white text-black">
-<div
-  className="
-    mx-auto
-    w-[78.20%]
-    2xl:w-[79.50%]
-  "
->
+<div className="mx-auto w-[90%] md:w-[78.20%] 2xl:w-[79.50%]">
         <section className="w-full max-w-[1290px] mx-auto">
           {/* Intro */}
           <div className="w-full pt-32 pb-10 md:pt-56 md:pb-12">
