@@ -99,7 +99,13 @@ const AboutSec: React.FunctionComponent = () => {
   return (
     <section className="relative overflow-x-clip" id="about">
       {/* Main Content Container */}
-      <div className="max-w-[1150px] 2xl:max-w-[1450px] xl:mx-auto mx-5 2xl:pr-[40px] xl:pr-[35px]">
+     <div
+  className="
+    mx-auto
+    w-[78.20%]
+    2xl:w-[79.50%]
+  "
+>
         {/* Heading */}
         <motion.div
           variants={reveal}
@@ -133,7 +139,7 @@ const AboutSec: React.FunctionComponent = () => {
   {/* Profile Image */}
   <div className="w-16 h-16 md:w-24 md:h-24 rounded-full overflow-hidden shrink-0">
     <img
-      src="/assets/Homepage/RahulDP.png"
+      src="/Rahul-03.png"
       alt="About Rahul"
       className="w-full h-full object-cover"
     />

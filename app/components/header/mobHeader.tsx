@@ -147,7 +147,7 @@ const MobHeader: React.FunctionComponent<IMobHeaderProps> = (props) => {
           <div className="relative flex items-center gap-2">
             {/* Rahul Image */}
             <img
-              src="/assets/Homepage/RahulDP.png"
+              src="/Rahul-03.png"
               alt="Rahul"
               className="
                 w-10

@@ -27,7 +27,7 @@ const ImageSection: React.FunctionComponent = () => {
           BACKGROUND IMAGE
       ========================== */}
       <motion.img
-        src="/Rahul.png"
+        src="/Rahul-02.png"
         alt="Rahul"
         initial={{
           opacity: 0,
@@ -116,20 +116,20 @@ const ImageSection: React.FunctionComponent = () => {
     object-contain
     mix-blend-screen
 
-    /* Desktop */
-    w-[33%]
-    right-[7%]
-    top-[49%]
+/* Desktop */
+w-[30%]
+right-[7%]
+top-[49%]
 
-    /* Tablet */
-    md:w-[36%]
-    md:right-[6%]
-    md:top-[48%]
+/* Tablet */
+md:w-[33%]
+md:right-[6%]
+md:top-[48%]
 
-    /* Mobile */
-    max-md:w-[48%]
-    max-md:right-[5%]
-    max-md:top-[56%]
+/* Mobile */
+max-md:w-[44%]
+max-md:right-[5%]
+max-md:top-[56%]
   "
 />
 

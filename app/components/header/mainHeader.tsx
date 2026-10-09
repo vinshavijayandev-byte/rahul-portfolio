@@ -1,3 +1,4 @@
+
 import * as React from "react";
 import Link from "next/link";
 import MenuItems from "./menuItems";
@@ -10,18 +11,20 @@ const MainHeader: React.FunctionComponent<IMainHeaderProps> = (props) => {
   const currentPage: string = props.currentMenu;
 
   return (
-    <section className="relative max-w-[1150px] 2xl:max-w-[1450px] xl:mx-auto mx-5">
+    <section
+      className="
+        relative
+        mx-auto
+        w-[78.20%]
+        2xl:w-[79.50%]
+      "
+    >
       <div
         className="
           absolute
           top-5
           left-0
-          w-[calc(100%-20px)]
-          sm:w-[calc(100%-25px)]
-          md:w-[calc(100%-30px)]
-          lg:w-[calc(100%-35px)]
-          xl:w-[calc(100%-35px)]
-          2xl:w-[calc(100%-40px)]
+          w-full
           flex
           items-center
           justify-between
@@ -31,16 +34,16 @@ const MainHeader: React.FunctionComponent<IMainHeaderProps> = (props) => {
           border
           border-white/20
           px-4
-          py-2
+          py-1.5
         "
       >
         {/* Logo / Profile */}
         <Link href="/">
           <div className="relative flex items-center gap-2 text-xl md:-ml-1">
             <img
-              src="/RahulDP.png"
+              src="/Rahul-03.png"
               alt="Rahul"
-              className="w-20 h-20 rounded-full object-cover"
+              className="w-16 h-16 rounded-full object-cover"
             />
 
             <div className="relative">
@@ -85,3 +88,4 @@ const MainHeader: React.FunctionComponent<IMainHeaderProps> = (props) => {
 };
 
 export default MainHeader;
+

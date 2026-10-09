@@ -23,14 +23,9 @@ export default function TheyyamPage() {
        <main className="min-h-screen bg-white text-black">
 <div
   className="
-    max-w-[1150px]
-    2xl:max-w-[1450px]
-    xl:mx-auto
-    mx-5
-    xl:w-[calc(100%-35px)]
-    2xl:w-[calc(100%-40px)]
-    2xl:pr-[40px]
-    xl:pr-[35px]
+    mx-auto
+    w-[78.20%]
+    2xl:w-[79.50%]
   "
 >
 

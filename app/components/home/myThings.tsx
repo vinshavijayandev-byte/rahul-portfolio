@@ -53,7 +53,7 @@ const cardVariants = {
     filter: "blur(0px)",
     transition: {
       duration: 0.8,
-      ease: [0.22, 1, 0.36, 1],
+      ease: [0.22, 1, 0.36, 1] as const,
     },
   },
 };
@@ -62,10 +62,10 @@ const MyThingsSec: React.FunctionComponent = () => {
   return (
     <section
       id="work"
-      className="relative overflow-x-clip py-10 md:py-26"
+      className="relative w-full overflow-x-clip py-10 md:py-26"
     >
-      <div className="max-w-[1150px] 2xl:max-w-[1450px] xl:mx-auto mx-5">
-
+      {/* Responsive Container - aligned with header */}
+      <div className="mx-auto w-[78.20%] 2xl:w-[79.50%]">
         {/* Heading */}
         <motion.div
           className="w-full text-center"
@@ -97,11 +97,12 @@ const MyThingsSec: React.FunctionComponent = () => {
           </p>
         </motion.div>
 
-        {/* Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 md:gap-y-12 md:mt-12">
+        {/* Cards Grid */}
+        <div className="grid w-full grid-cols-1 sm:grid-cols-2 gap-x-4 sm:gap-x-8 md:gap-x-12 lg:gap-x-12 2xl:gap-x-20 gap-y-0 md:gap-y-12 md:mt-12">
           {things.map((thing, index) => (
             <motion.div
               key={thing.title}
+              className="w-full min-w-0"
               variants={cardVariants}
               initial="hidden"
               whileInView="visible"
@@ -115,9 +116,8 @@ const MyThingsSec: React.FunctionComponent = () => {
             >
               <Link
                 href={thing.link}
-                className="group block cursor-pointer"
+                className="group block w-full cursor-pointer"
               >
-
                 {/* Image */}
                 <div className="w-full overflow-hidden -mt-4 md:mt-0">
                   <Image
@@ -125,13 +125,12 @@ const MyThingsSec: React.FunctionComponent = () => {
                     alt={thing.title}
                     width={460}
                     height={460}
+                    sizes="(max-width: 639px) 78.2vw, (min-width: 1536px) 38vw, 39.1vw"
                     className="
-                      md:w-[94%]
-                      md:h-auto
-                      w-[460px]
-                      h-[460px]
-                      object-contain
                       block
+                      w-full
+                      h-auto
+                      object-contain
                       transition-transform
                       duration-700
                       ease-out
@@ -171,12 +170,10 @@ const MyThingsSec: React.FunctionComponent = () => {
                 >
                   {thing.text}
                 </p>
-
               </Link>
             </motion.div>
           ))}
         </div>
-
       </div>
     </section>
   );
