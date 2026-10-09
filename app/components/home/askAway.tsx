@@ -7,19 +7,23 @@ const askItems = [
   {
     title: "What's your design process like?",
     answer:
-"I start with research and discovery, move into wireframes and prototypes, then refine through usability testing and iteration before final visual polish."  },
+      "I start with research and discovery, move into wireframes and prototypes, then refine through usability testing and iteration before final visual polish.",
+  },
   {
     title: "What inspires your work?",
     answer:
-" Everyday interactions, architecture, motion, and the small details that make a product feel effortless to use."  },
+      " Everyday interactions, architecture, motion, and the small details that make a product feel effortless to use.",
+  },
   {
     title: "What's your favorite kind of project?",
     answer:
-" Projects that mix brand identity with product thinking — where design decisions have to work both visually and functionally."  },
+      " Projects that mix brand identity with product thinking — where design decisions have to work both visually and functionally.",
+  },
   {
     title: "What's one thing you never compromise on?",
     answer:
-" Usability. A beautiful interface still has to be clear, accessible, and easy for real people to use."  },
+      " Usability. A beautiful interface still has to be clear, accessible, and easy for real people to use.",
+  },
 ];
 
 /* Same reveal animation used throughout the page */
@@ -44,22 +48,18 @@ const AskAwaySec: React.FunctionComponent = () => {
   const [openIndex, setOpenIndex] = React.useState<number | null>(null);
 
   const handleToggle = (index: number) => {
-    setOpenIndex((currentIndex) =>
-      currentIndex === index ? null : index
-    );
+    setOpenIndex((currentIndex) => (currentIndex === index ? null : index));
   };
 
   return (
     <section id="faq" className="relative overflow-x-clip py-10 md:py-20 mb-6">
-      
       <div
-  className="
+        className="
     mx-auto
     w-[78.20%]
     2xl:w-[79.50%]
   "
->
-
+      >
         {/* Heading */}
         <motion.div
           className="w-full"
@@ -91,7 +91,7 @@ const AskAwaySec: React.FunctionComponent = () => {
           }}
         >
           <p className="w-full text-lg md:text-2xl leading-relaxed text-black mt-2">
-           If you still looking for some answers let's connect.
+            If you still looking for some answers let's connect.
           </p>
         </motion.div>
 
@@ -123,7 +123,7 @@ const AskAwaySec: React.FunctionComponent = () => {
                   }
                 }}
                 aria-expanded={isOpen}
-               className="
+                className="
   w-full
   border
   border-black
@@ -135,15 +135,14 @@ const AskAwaySec: React.FunctionComponent = () => {
   select-none
 "
               >
-              
-            {/* Title + Plus */}
-<div className="flex items-center justify-between gap-2 md:gap-6">
-  <p className="text-[15px] sm:text-base md:text-2xl font-medium text-black whitespace-nowrap">
-    {item.title}
-  </p>
+                {/* Title + Plus */}
+                <div className="flex items-center justify-between gap-2 md:gap-6">
+                  <p className="text-[15px] sm:text-base md:text-2xl font-medium text-black whitespace-nowrap">
+                    {item.title}
+                  </p>
 
-  <span
-    className="
+                  <span
+                    className="
       shrink-0
       text-3xl
       md:text-4xl
@@ -153,10 +152,10 @@ const AskAwaySec: React.FunctionComponent = () => {
       transition-transform
       duration-300
     "
-  >
-    {isOpen ? "−" : "+"}
-  </span>
-</div>
+                  >
+                    {isOpen ? "−" : "+"}
+                  </span>
+                </div>
 
                 {/* Answer */}
                 <div
@@ -182,7 +181,6 @@ const AskAwaySec: React.FunctionComponent = () => {
             );
           })}
         </div>
-
       </div>
     </section>
   );
