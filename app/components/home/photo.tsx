@@ -115,14 +115,15 @@ const ImageSection: React.FunctionComponent = () => {
     pointer-events-none
     object-contain
     mix-blend-screen
+    max-md:hidden
 
 /* Desktop */
-w-[30%]
+w-[28%]
 right-[7%]
 top-[49%]
 
 /* Tablet */
-md:w-[33%]
+md:w-[26%]
 md:right-[6%]
 md:top-[48%]
 
@@ -132,6 +133,7 @@ max-md:right-[5%]
 max-md:top-[65%]
   "
 />
+
 
       {/* =========================
           BOTTOM TEXT

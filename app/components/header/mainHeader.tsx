@@ -19,27 +19,28 @@ const MainHeader: React.FunctionComponent<IMainHeaderProps> = (props) => {
         2xl:w-[79.50%]
       "
     >
-      <div
-        className="
-          absolute
-          top-5
-          left-0
-          w-full
-          flex
-          items-center
-          justify-between
-          rounded-full
-          bg-white/40
-          backdrop-blur-md
-          border
-          border-white/20
-          px-4
-          py-1.5
-        "
-      >
+     
+<div
+  className="
+    absolute
+    top-5
+    left-0
+    w-full
+    flex
+    items-center
+    justify-between
+    rounded-full
+    bg-white/40
+    backdrop-blur-md
+    border
+    border-white/20
+    p-2
+  "
+>
+
         {/* Logo / Profile */}
         <Link href="/">
-          <div className="relative flex items-center gap-2 text-xl md:-ml-1">
+         <div className="relative flex items-center gap-2 text-xl ml-1">
             <img
               src="/Rahul-03.png"
               alt="Rahul"
@@ -65,8 +66,8 @@ const MainHeader: React.FunctionComponent<IMainHeaderProps> = (props) => {
               <Link
                 href={item.link}
                 key={key}
-                className={`pl-3 ${
-                  key === MenuItems.length - 1 ? "pr-0" : "pr-3"
+                className={`pl-4 ${
+                  key === MenuItems.length - 1 ? "pr-0" : "pr-4"
                 }`}
               >
                 <h1
