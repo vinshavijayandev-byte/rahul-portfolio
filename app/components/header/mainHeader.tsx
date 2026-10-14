@@ -16,7 +16,7 @@ const MainHeader: React.FunctionComponent<IMainHeaderProps> = (props) => {
         relative
         mx-auto
         w-[78.20%]
-        2xl:w-[79.50%]
+        2xl:w-[75.50%]
       "
     >
      

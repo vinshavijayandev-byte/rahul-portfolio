@@ -65,7 +65,7 @@ const MyThingsSec: React.FunctionComponent = () => {
       className="relative w-full overflow-x-clip py-10 md:py-26"
     >
       {/* Responsive Container - unchanged */}
-      <div className="mx-auto w-[90%] md:w-[78.20%] 2xl:w-[79.50%]">
+      <div className="mx-auto w-[90%] md:w-[78.20%] 2xl:w-[75.50%]">
         {/* Heading */}
         <motion.div
           className="w-full text-center"
