@@ -325,6 +325,7 @@ export default function EchopathPage() {
 </motion.div>
 
 
+
 {/* Image Section */}
 <motion.div
   className="w-full mt-6 md:mt-10"
@@ -344,10 +345,9 @@ export default function EchopathPage() {
 
     {/* Image 1 */}
     <motion.div
-      className="group relative w-full overflow-hidden "
+      className="group relative w-full overflow-hidden"
       whileHover={{
         y: -8,
-        scale: 1.02,
       }}
       transition={{
         duration: 0.5,
@@ -357,9 +357,9 @@ export default function EchopathPage() {
       <motion.img
         src="/assets/Echopath/Echopath02.webp"
         alt="Visual Language 1"
-        className="w-full h-[300px] md:h-[700px] object-cover"
+        className="w-full h-auto object-contain"
         whileHover={{
-          scale: 1.08,
+          scale: 1.03,
         }}
         transition={{
           duration: 0.7,
@@ -368,13 +368,11 @@ export default function EchopathPage() {
       />
     </motion.div>
 
-
     {/* Image 2 */}
     <motion.div
-      className="group relative w-full overflow-hidden "
+      className="group relative w-full overflow-hidden"
       whileHover={{
         y: -8,
-        scale: 1.02,
       }}
       transition={{
         duration: 0.5,
@@ -384,9 +382,9 @@ export default function EchopathPage() {
       <motion.img
         src="/assets/Echopath/Echopath03.webp"
         alt="Visual Language 2"
-        className="w-full h-[300px] md:h-[700px] object-cover"
+        className="w-full h-auto object-contain"
         whileHover={{
-          scale: 1.08,
+          scale: 1.03,
         }}
         transition={{
           duration: 0.7,

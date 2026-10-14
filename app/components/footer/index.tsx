@@ -27,31 +27,32 @@ export default function Contact() {
     <section className="relative w-full py-6 sm:py-8 bg-[#fc310c] text-white">
       <div
         className="
+          w-auto
           max-w-screen-xl
-          xl:mx-auto
           mx-5
+          xl:w-[78.20%]
+          xl:max-w-none
+          xl:mx-auto
+          2xl:w-[75.50%]
           min-h-[60vh]
           md:min-h-[80vh]
           flex
           flex-col
           justify-between
+         
         "
       >
         {/* Main Content */}
         <div className="flex flex-1 items-center justify-center">
-          <div className="w-screen flex flex-col items-center justify-center text-center">
-
+          <div className="w-screen flex flex-col items-center justify-center text-center 2xl:w-full">
             {/* Heading */}
             <motion.h2
               variants={reveal}
               initial="hidden"
               whileInView="visible"
-              viewport={{
-                once: true,
-                amount: 0.4,
-              }}
+              viewport={{ once: true, amount: 0.4 }}
               className="
-              mt-12
+                mt-12
                 w-full
                 max-w-full
                 mx-auto
@@ -63,9 +64,11 @@ export default function Contact() {
                 tracking-tight
                 sm:text-5xl
                 md:text-8xl
+                2xl:text-9xl
                 text-white
                 break-words
                 font-display-custom
+                2xl:whitespace-nowrap
               "
             >
               SIP. SKETCH. SCALE
@@ -79,20 +82,10 @@ export default function Contact() {
               variants={reveal}
               initial="hidden"
               whileInView="visible"
-              viewport={{
-                once: true,
-                amount: 0.4,
-              }}
-              transition={{
-                delay: 0.12,
-              }}
-              whileHover={{
-                scale: 1.06,
-                y: -4,
-              }}
-              whileTap={{
-                scale: 0.96,
-              }}
+              viewport={{ once: true, amount: 0.4 }}
+              transition={{ delay: 0.12 }}
+              whileHover={{ scale: 1.06, y: -4 }}
+              whileTap={{ scale: 0.96 }}
               className="
                 mx-auto
                 group
@@ -120,7 +113,6 @@ export default function Contact() {
             >
               Let's Brew
             </motion.a>
-
           </div>
         </div>
 
@@ -140,25 +132,14 @@ export default function Contact() {
             md:pt-10
             pb-3
           "
-          initial={{
-            opacity: 0,
-            y: 40,
-            filter: "blur(8px)",
-          }}
-          whileInView={{
-            opacity: 1,
-            y: 0,
-            filter: "blur(0px)",
-          }}
+          initial={{ opacity: 0, y: 40, filter: "blur(8px)" }}
+          whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
           transition={{
             duration: 0.9,
             delay: 0.2,
             ease: [0.22, 1, 0.36, 1],
           }}
-          viewport={{
-            once: true,
-            amount: 0.2,
-          }}
+          viewport={{ once: true, amount: 0.2 }}
         >
           {/* Rights Reserved */}
           <p
@@ -192,25 +173,10 @@ export default function Contact() {
               href="https://www.instagram.com/rahul5krishnan/?hl=en"
               target="_blank"
               rel="noopener noreferrer"
-              whileHover={{
-                y: -6,
-                scale: 1.12,
-              }}
-              whileTap={{
-                scale: 0.92,
-              }}
-              transition={{
-                duration: 0.25,
-              }}
-              className="
-                text-white
-                flex
-                items-center
-                justify-center
-                hover:text-black
-                transition-colors
-                duration-300
-              "
+              whileHover={{ y: -6, scale: 1.12 }}
+              whileTap={{ scale: 0.92 }}
+              transition={{ duration: 0.25 }}
+              className="text-white flex items-center justify-center hover:text-black transition-colors duration-300"
               aria-label="Instagram"
             >
               <Iconify
@@ -224,25 +190,10 @@ export default function Contact() {
               href="https://www.linkedin.com/in/rahul-krishnan-844283184/"
               target="_blank"
               rel="noopener noreferrer"
-              whileHover={{
-                y: -6,
-                scale: 1.12,
-              }}
-              whileTap={{
-                scale: 0.92,
-              }}
-              transition={{
-                duration: 0.25,
-              }}
-              className="
-                text-white
-                flex
-                items-center
-                justify-center
-                hover:text-black
-                transition-colors
-                duration-300
-              "
+              whileHover={{ y: -6, scale: 1.12 }}
+              whileTap={{ scale: 0.92 }}
+              transition={{ duration: 0.25 }}
+              className="text-white flex items-center justify-center hover:text-black transition-colors duration-300"
               aria-label="LinkedIn"
             >
               <Iconify
@@ -254,28 +205,15 @@ export default function Contact() {
             {/* Email / @ */}
             <motion.a
               href="mailto:rahulmdr54@gmail.com"
-              whileHover={{
-                y: -6,
-                scale: 1.12,
-              }}
-              whileTap={{
-                scale: 0.92,
-              }}
-              transition={{
-                duration: 0.25,
-              }}
-              className="
-                text-white
-                flex
-                items-center
-                justify-center
-                hover:text-black
-                transition-colors
-                duration-300
-              "
+              whileHover={{ y: -6, scale: 1.12 }}
+              whileTap={{ scale: 0.92 }}
+              transition={{ duration: 0.25 }}
+              className="text-white flex items-center justify-center hover:text-black transition-colors duration-300"
               aria-label="Email"
             >
-              <span className="text-2xl md:text-3xl font-semibold">@</span>
+              <span className="text-2xl md:text-3xl font-semibold">
+                @
+              </span>
             </motion.a>
           </div>
         </motion.div>
@@ -283,4 +221,3 @@ export default function Contact() {
     </section>
   );
 }
-

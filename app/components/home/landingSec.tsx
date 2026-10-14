@@ -64,7 +64,7 @@ const LandingSection: React.FunctionComponent = () => {
 <div className="hidden md:block">
   {headingLines.map((line, lineIndex) => (
     <React.Fragment key={line}>
-      <span className="inline-flex flex-wrap justify-center text-8xl font-display-custom">
+      <span className="inline-flex flex-wrap justify-center text-8xl 3xl:text-9xl font-display-custom">
         {line.split(" ").map((word, wordIndex) => (
           <motion.span
             key={wordIndex}
@@ -120,7 +120,7 @@ const LandingSection: React.FunctionComponent = () => {
                 },
               },
             }}
-            className="text-xl md:text-3xl leading-normal my-5 text-black flex flex-wrap justify-center gap-x-[0.3em]"
+            className="text-xl md:text-3xl 3xl:text-4xl leading-normal my-5 text-black flex flex-wrap justify-center gap-x-[0.3em]"
           >
             {paragraphWords.map((word, index) => (
               <motion.span
